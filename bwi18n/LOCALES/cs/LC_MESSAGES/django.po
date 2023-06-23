@@ -1,0 +1,4354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# tx_e2f_cz_r12 tx_e2f_cz_r12, 2023
+# e2f_cz r2 <marek.pisa.m@gmail.com>, 2023
+# tx_e2f_cz c2 <transifex_logins29@ate2f.com>, 2023
+# Engineers <translations@betterworks.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-20 08:31-0700\n"
+"PO-Revision-Date: 2020-06-23 13:33+0000\n"
+"Last-Translator: Engineers <translations@betterworks.com>, 2023\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/betterworks1/teams/82221/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: BetterWorks/forms/validators.py:26
+msgid "Email address is required."
+msgstr "E-mailová adresa je povinná."
+
+#: BetterWorks/forms/validators.py:29
+msgid "Email address must have @ symbol."
+msgstr "E-mailová adresa musí obsahovat symbol @."
+
+#: BetterWorks/forms/validators.py:34
+msgid "Enter a valid email address."
+msgstr "Zadejte platnou e-mailovou adresu."
+
+#: BetterWorks/forms/validators.py:39
+#, python-format
+msgid "%s is an invalid domain."
+msgstr "%s není platná doména."
+
+#: BetterWorks/templates/404.html:7
+msgid "Page Not Found"
+msgstr "Stránka nenalezena"
+
+#: BetterWorks/templates/404.html:25 BetterWorks/templates/500.html:23
+msgid "Oops!"
+msgstr "Chyba!"
+
+#: BetterWorks/templates/404.html:26
+msgid ""
+"404 error, this page does not exist. Either the link is outdated or the "
+"address is mistyped."
+msgstr ""
+"Chyba 404, tato stránka neexistuje. Odkaz je buď neaktuální nebo je chybně "
+"zadána adresa."
+
+#: BetterWorks/templates/404.html:28
+msgid "Back to homepage"
+msgstr "Zpět na domovskou stránku"
+
+#: BetterWorks/templates/500.html:7
+msgid "Internal Server Error"
+msgstr "Interní chyba serveru"
+
+#: BetterWorks/templates/500.html:24
+msgid ""
+"500 error, there is a problem loading this data. Check back in a little "
+"while."
+msgstr "Chyba 500, došlo k problému při načítání dat. Zkuste to za chvíli."
+
+#: BetterWorks/templates/djangosaml2/logout_error.html:4
+#: BetterWorks/templates/logout.html:48
+msgid "You've been logged out of Betterworks"
+msgstr "Odhlásili jste se z aplikace Betterworks"
+
+#: BetterWorks/templates/djangosaml2/logout_error.html:5
+#: BetterWorks/templates/logout.html:53
+msgid "To access Betterworks, please click the link below."
+msgstr "Pro přístup do aplikace Betterworks klikněte na odkaz níže."
+
+#: BetterWorks/templates/djangosaml2/logout_error.html:7
+#: BetterWorks/templates/logout.html:58
+msgid "Access Betterworks"
+msgstr "Vstoupit do aplikace Betterworks"
+
+#: BetterWorks/templates/mobilessoconfirm.html:121
+msgid "Hi, Betterworks would like to access your account:"
+msgstr ""
+"Dobrý den, aplikace Betterworks by chtěla získat přístup k vašemu účtu:"
+
+#: BetterWorks/templates/mobilessoconfirm.html:124
+msgid "Allow"
+msgstr "Povolit"
+
+#: BetterWorks/templates/mobilessoconfirm.html:125
+msgid "Not you? Log out."
+msgstr "Nejste to vy? Odhlásit se."
+
+#: BetterWorks/templates/text_email.html:71
+msgid "Betterworks. All Rights Reserved."
+msgstr "Betterworks. Všechna práva vyhrazena."
+
+#: BetterWorks/views/forgotpassword.py:53
+msgid "Please use the following link to reset your Betterworks password:\n"
+msgstr ""
+"Chcete-li resetovat své heslo Betterworks, použijte následující odkaz:\n"
+
+#: BetterWorks/views/forgotpassword.py:60
+msgid "Reset your Betterworks password"
+msgstr "Resetovat heslo do aplikace Betterworks"
+
+#: BetterWorks/views/resetpassword.py:28
+msgid "Invalid email or token, please request another reset."
+msgstr "Neplatný e-mail nebo token, požádejte o další resetování."
+
+#: companycontent/actions/editorgsettings.py:388
+msgid "Scoring min must be less than scoring max"
+msgstr "Minimální úspěch musí být menší než maximální úspěch"
+
+#: companycontent/models/defaultgoalmanager.py:24
+#, python-format
+msgid ""
+"Click the Search icon (magnifying glass) at the top of the application to "
+"find %(BW_GOALS)s or people."
+msgstr ""
+"Chcete-li vyhledávat cíle nebo lidi, klikněte na ikonu vyhledávání (lupa) "
+"nahoře v aplikaci.%(BW_GOALS)s"
+
+#: companycontent/models/defaultgoalmanager.py:30
+#, python-format
+msgid ""
+"Click %(BW_CAP_GOALS)s at the top of the application, then use the left "
+"filter panel to navigate to the %(BW_GOALS)s owned by you and your team."
+msgstr ""
+"Klikněte na cíle nahoře v aplikaci a potom použijte levý panel filtrů, "
+"abyste se dostali k cílům, které máte vy a váš "
+"tým.%(BW_CAP_GOALS)s%(BW_GOALS)s"
+
+#: companycontent/models/defaultgoalmanager.py:37
+#, python-format
+msgid ""
+"Click the + Create %(BW_GOALS)s button at the top right of the application "
+"to start making your own %(BW_GOALS)s"
+msgstr ""
+"Klikněte na tlačítko + Vytvořit cíle v pravé horní části aplikace a pusťte "
+"se do vytváření svých vlastních cílů.%(BW_GOALS)s%(BW_GOALS)s"
+
+#: companycontent/models/defaultgoalmanager.py:43
+#, python-format
+msgid ""
+"View your %(BW_GOAL)s and communicate status by entering a comment or "
+"logging progress. Communication is healthy!"
+msgstr ""
+"Zobrazte si své cíle a dejte ostatním vědět o jejich stavu tím, že k cíli "
+"zadáte komentář nebo zaznamenáte jeho průběh. Komunikace je "
+"základ!%(BW_GOAL)s"
+
+#: companycontent/models/defaultgoalmanager.py:49
+msgid ""
+"Register for the Betterworks Fundamentals course by hovering over your name "
+"and choosing Get Training."
+msgstr ""
+"Přihlaste se do kurzu Základy aplikace Betterworks. Kurzorem najeďte na své "
+"jméno a vyberte Získat školení."
+
+#: companycontent/models/defaultgoalmanager.py:61
+#, python-format
+msgid ""
+"This %(BW_GOAL)s and its %(BW_MILESTONES)s will help you learn about "
+"%(BW_GOAL)s setting, important product features, and useful resources, like "
+"training and documentation. While it may only take a few minutes to complete"
+" each %(BW_MILESTONE)s, the %(BW_GOAL)s is designed to aid you over a single"
+" quarter, a typical %(BW_GOAL)s period in which you create %(BW_GOAL)s, "
+"report progress, and score the %(BW_GOAL)s."
+msgstr ""
+"Tento cíl a jeho milníky vám pomohou dozvědět se více o nastavení cílů a "
+"důležitých funkcích produktu a získáte užitečné zdroje jako školení a "
+"dokumentaci. I když vám dosažení každého milníku zabere pouze pár minut, cíl"
+" je navržen tak, aby vám pomáhal během celého čtvrtletí, což je typická doba"
+" pro cíle. Během ní je vytváříte, oznamujete jejich průběh a plníte "
+"je.%(BW_GOAL)s%(BW_MILESTONES)s%(BW_GOAL)s%(BW_MILESTONE)s%(BW_GOAL)s%(BW_GOAL)s%(BW_GOAL)s%(BW_GOAL)s"
+
+#: companycontent/models/orgsettings.py:612
+#, python-format
+msgid "Current date did not resolve to a valid fiscal period: %(todays_date)s"
+msgstr "Nynější datum nepatří do platného účetního období: %(todays_date)s"
+
+#: companycontent/models/orgsettings.py:657
+#, python-format
+msgid "%(org_name)s Settings"
+msgstr "Nastavení pro %(org_name)s"
+
+#: companycontent/models/topcompanygoal.py:44
+msgid "Priority should not be negative."
+msgstr "Priorita nesmí být záporná."
+
+#: conversations/models/questionresponse.py:87
+#: feedback/models/questionresponse.py:56
+msgid "Unanswered"
+msgstr "Nezodpovězené"
+
+#: conversations/views/conversation.py:273
+msgid "Cannot edit the conversation without permission"
+msgstr "Konverzaci nelze upravovat bez oprávnění."
+
+#: conversations/views/conversation.py:320
+msgid "Cannot share and submit simultaneously"
+msgstr "Nemůžete sdílet a odesílat zároveň."
+
+#: conversations/views/conversation.py:360
+msgid "Someone is editing this conversation"
+msgstr "Někdo upravuje tuto konverzaci."
+
+#: conversations/views/conversation.py:383
+msgid "Cannot view shared past conversation"
+msgstr "Sdílené starší konverzace nelze zobrazit."
+
+#: conversations/views/conversation.py:412
+#: conversations/views/conversation.py:421
+#: conversations/views/conversation.py:429
+msgid "Editing old version. Please refresh the page."
+msgstr "Upravujete starou verzi. Obnovte stránku."
+
+#: conversations/views/conversation.py:415
+#, python-format
+msgid "%(name)s has made edits to this conversation"
+msgstr "Uživatel %(name)s provedl změny v této konverzaci."
+
+#: conversations/views/conversation.py:459
+msgid "Cannot edit locked notes"
+msgstr "Zamčené poznámky nelze upravovat."
+
+#: core/actions/groups.py:25
+msgid "Invalid department name"
+msgstr "Neplatný název oddělení"
+
+#: core/actions/groups.py:28
+#, python-format
+msgid ""
+"You can't create this department %(name)s. It already exists in the system"
+msgstr ""
+"Toto oddělení %(name)s nemůžete vytvořit, protože v systému již existuje."
+
+#: core/actions/groups.py:73
+#, python-format
+msgid "Department %(name)s already deactivated"
+msgstr "Oddělení %(name)s již bylo deaktivováno."
+
+#: core/actions/groups.py:83
+msgid ""
+"This department cannot be deactivated until all active users are removed."
+msgstr ""
+"Toto oddělení nemůžete deaktivovat, dokud nebudou odstraněni všichni aktivní"
+" uživatelé."
+
+#: core/actions/groups.py:106
+#, python-format
+msgid "Department %(name)s already activated"
+msgstr "Oddělení %(name)s již bylo aktivováno."
+
+#: core/actions/reactivateuser.py:26 core/actions/user.py:200
+#, python-format
+msgid "Multiple active users cannot share an email address %(email)s"
+msgstr "Více aktivních uživatelů nemůže sdílet e-mailovou adresu %(email)s."
+
+#: core/actions/teams.py:14
+#, python-format
+msgid "Deactivated users may not join teams %(id)s"
+msgstr "Deaktivovaní uživatelé se nesmějí připojovat do týmů %(id)s."
+
+#: core/actions/teams.py:18
+#, python-format
+msgid "Cross-org user attempting to join team %(id)s"
+msgstr "Uživatel z jiné organizace se pokouší připojit k týmu %(id)s."
+
+#: core/actions/teams.py:25
+#, python-format
+msgid "Cross-org user attempting to edit team %(id)s"
+msgstr "Uživatel z jiné organizace se pokouší upravit tým %(id)s."
+
+#: core/actions/teams.py:35
+#, python-format
+msgid "Cannot edit team %(id)s"
+msgstr "Tým %(id)s nelze upravit."
+
+#: core/actions/teams.py:49
+msgid "Team names are required"
+msgstr "Názvy týmů jsou povinné."
+
+#: core/actions/teams.py:53
+msgid "Team names must not be empty"
+msgstr "Názvy týmů nesmí být prázdné."
+
+#: core/actions/teams.py:58
+#, python-format
+msgid "A team already exists with this name %(name)s"
+msgstr "Tím s tímto názvem %(name)s již existuje."
+
+#: core/actions/teams.py:62
+#, python-format
+msgid "Teams require members %(name)s"
+msgstr "Týmy musejí obsahovat členy %(name)s."
+
+#: core/actions/teams.py:94
+#, python-format
+msgid "A team or department already exists with this name %(name)s"
+msgstr "Tým nebo oddělení s tímto názvem %(name)s již existuje."
+
+#: core/actions/teams.py:122
+#, python-format
+msgid "User must be deactivated %(id)s"
+msgstr "Uživatele %(id)s je potřeba deaktivovat."
+
+#: core/actions/teams.py:145
+#, python-format
+msgid "Team already archived %(id)s"
+msgstr "Tým %(id)s již byl archivován."
+
+#: core/actions/teams.py:165
+#, python-format
+msgid "Team not archived %(id)s"
+msgstr "Tým %(id)s nebyl archivován."
+
+#: core/actions/teams.py:169
+#, python-format
+msgid "Cannot unarchive empty team %(id)s"
+msgstr "Prázdný tým %(id)s nelze vrátit z archivu."
+
+#: core/actions/user.py:144
+#, python-format
+msgid "%(user_email)s may not edit users for org %(org_id)d"
+msgstr ""
+"Uživatel %(user_email)s nesmí upravovat uživatele pro organizaci %(org_id)d."
+
+#: core/actions/user.py:155
+msgid "required: org_id"
+msgstr "povinné: org_id"
+
+#: core/actions/user.py:158
+msgid "required: email"
+msgstr "povinné: e-mail"
+
+#: core/actions/user.py:186
+#, python-format
+msgid "User %(id)s account is disabled"
+msgstr "Uživatelský účet %(id)s je zakázaný."
+
+#: core/actions/user.py:206
+msgid "Employee ID is required to reuse email addresses"
+msgstr "Pro opětovné použití e-mailové adresy je nutné zaměstnanecké ID."
+
+#: core/actions/user.py:215
+#, python-format
+msgid "Invalid domain %(domain)s for user with email %(email)s"
+msgstr "Neplatná doména %(domain)s pro uživatele s e-mailem %(email)s."
+
+#: core/actions/user.py:225
+#, python-format
+msgid "Manager for %(user_email)s cannot be self."
+msgstr "Vedoucím pro e-mail %(user_email)s nemůžete být vy sami."
+
+#: core/actions/user.py:229
+msgid "manager must be in the same organization."
+msgstr "Vedoucí musí být ve stejné organizaci."
+
+#: core/actions/user.py:237
+#, python-format
+msgid "Cannot save profile %(user_email)s, it would create a cycle."
+msgstr "Profil s e-mailem %(user_email)s nelze uložit, došlo by k zacyklení."
+
+#: core/actions/user.py:242
+msgid "Manager chain is too long."
+msgstr "Řetězec vedení je příliš dlouhý."
+
+#: core/actions/user.py:249
+#, python-format
+msgid ""
+"Cannot save profile %(user_email)s, group must be in the same organization."
+msgstr ""
+"Profil s e-mailem %(user_email)s nelze uložit, skupina musí být ve stejné "
+"organizaci."
+
+#: core/actions/user.py:254
+#, python-format
+msgid "The group %(name)s is not active."
+msgstr "Skupina %(name)s není aktivní."
+
+#: core/actions/user.py:260
+msgid "Cannot set password, domain is using SSO."
+msgstr "Heslo nelze nastavit, doména používá metodu SSO."
+
+#: core/actions/user.py:275
+msgid ""
+"There is already another user with this employee ID. Update the employee ID "
+"or delete if this is a duplicate."
+msgstr ""
+"Toto zaměstnanecké ID již vlastní jiný uživatel. Aktualizujte své "
+"zaměstnanecké ID nebo ho smažte, pokud se jedná o duplikát."
+
+#: core/actions/user.py:282
+msgid "Locale $(locale)s is not supported"
+msgstr "Jazyk $(locale)s není podporován."
+
+#: core/actions/user.py:404 core/actions/user.py:477
+msgid "First name is required"
+msgstr "Křestní jméno je povinné"
+
+#: core/actions/user.py:406 core/actions/user.py:479
+msgid "Last name is required"
+msgstr "Příjmení je povinné"
+
+#: core/actions/user.py:431
+msgid "All user licenses have been provisioned"
+msgstr "Všechny uživatelské licence již byly poskytnuty"
+
+#: core/actions/user.py:525
+msgid "Invalid email found"
+msgstr "Nalezen neplatný e-mail"
+
+#: core/models/group.py:150
+#, python-format
+msgid "Cannot save group %(name)s, it would create a cycle"
+msgstr "Skupinu %(name)s nelze uložit, došlo by k zacyklení."
+
+#: core/models/usermanager.py:263
+msgid ""
+"Password must be longer than 8 characters and have both letters and numbers"
+msgstr "Heslo musí být delší než 8 znaků a obsahovat písmena i čísla."
+
+#: emails/templates/base_report.html:17
+#: emails/templates/base_report_batch.html:68
+msgid "Thanks!<br> The Team at Betterworks<!-- IGNORE_WORD -->"
+msgstr "Děkujeme!<br> Tým Betterworks<!-- IGNORE_WORD -->"
+
+#: emails/templates/base_report_batch.html:15
+#, python-format
+msgid "Report : <strong>%(report_title)s</strong>"
+msgstr ""
+
+#: emails/templates/base_report_batch.html:21
+#, python-format
+msgid "Name of the template : <strong>%(template_name)s</strong>"
+msgstr ""
+
+#: emails/templates/base_report_batch.html:24
+#, python-format
+msgid "Selected date range : <strong>%(date_range_text)s</strong>"
+msgstr ""
+
+#: emails/templates/base_report_batch.html:27
+msgid "Please download the following report(s) within 1 day :"
+msgstr "Následující zprávu/y se prosím stáhněte do 1 dne:"
+
+#: emails/templates/compliance/base_compliance_notification.html:16
+#, python-format
+msgid "Hi %(name)s,"
+msgstr "Dobrý den, %(name)s,"
+
+#: emails/templates/compliance/final_checkin.html:7
+#, python-format
+msgid ""
+"You have %(BW_GOALS)s ending soon. Take a few minutes to provide a final "
+"update on your accomplishments."
+msgstr ""
+"Máte cíle, které brzy skončí. Udělejte si chvilku čas, abyste naposledy "
+"aktualizoval/a, čeho jste dosáhl/a.%(BW_GOALS)s"
+
+#: emails/templates/compliance/final_checkin.html:14
+#: emails/templates/compliance/mid_period_checkin.html:24
+#: emails/templates/compliance/mid_period_checkin_many.html:46
+#: emails/templates/custom_templates/colgate_palmolive/compliance/final_checkin.html:14
+#: emails/templates/custom_templates/colgate_palmolive/compliance/mid_period_checkin.html:21
+#: emails/templates/custom_templates/colgate_palmolive/compliance/mid_period_checkin_many.html:44
+#: emails/templates/goal/nudge_notification.html:18
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: emails/templates/compliance/final_checkin_scoring.html:7
+#, python-format
+msgid ""
+"You have %(BW_GOALS)s ending soon. Take a few minutes to update and assess "
+"your %(BW_GOALS)s."
+msgstr ""
+"Máte cíle, které brzy skončí. Udělejte si chvilku čas, abyste je "
+"aktualizoval/a a zhodnotil/a.%(BW_GOALS)s%(BW_GOALS)s"
+
+#: emails/templates/compliance/final_checkin_scoring.html:15
+#, python-format
+msgid "Assess your %(BW_GOALS)s"
+msgstr "Zhodnotit své cíle%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_create_soon.html:6
+#, python-format
+msgid ""
+"If you have already entered your %(BW_GOALS)s, great! You're ahead of "
+"schedule and contributing to important priorities for your organization."
+msgstr ""
+"Skvělá práce, pokud jste své cíle již zadali. Jste napřed a podílíte se na "
+"důležitých prioritách své organizace.%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_create_soon.html:10
+#, python-format
+msgid ""
+"If you still have not yet published your %(BW_GOALS)s, remember to discuss "
+"with your manager & input by %(due_date)s."
+msgstr ""
+"Pokud jste své cíle ještě nezveřejnili, nezapomeňte je probrat se svým "
+"vedoucím a vložit je do %(due_date)s.%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_create_soon.html:17
+#: emails/templates/compliance/goal_create_today.html:15
+#: emails/templates/compliance/goal_overdue.html:16
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_create_soon.html:17
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue.html:15
+#, python-format
+msgid "Create %(BW_GOALS)s"
+msgstr "Vytvořit cíle%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_create_today.html:6
+#, python-format
+msgid ""
+"<strong>Please create and finalize your %(BW_GOALS)s by the end of "
+"today.</strong><br> Setting %(BW_GOALS)s will help you stay aligned, "
+"collaborate with team<!-- IGNORE_WORD --> members, and track your progress."
+msgstr ""
+"<strong>Vytvořte a dokončete své cíle do konce dnešního dne.</strong><br> "
+"Určení cílů vám pomůže zůstat na jedné vlně s týmem, spolupracovat s jeho "
+"členy a sledovat váš postup.%(BW_GOALS)s%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_overdue.html:6
+#, python-format
+msgid ""
+"<strong>You haven't set any %(BW_GOALS)s inside of Betterworks yet.</strong>"
+" <br><br> We know you're busy working hard, which is why it's important to "
+"take a few minutes to create %(BW_GOALS)s, and let people know the cool "
+"things you're doing."
+msgstr ""
+"<strong>Zatím jste si v aplikaci Betterworks neurčili žádné cíle.</strong> "
+"<br><br> Víme, že tvrdě pracujete, a proto je důležité udělat si chvilku "
+"času na vytvoření cílů a dát lidem vědět o těch skvělých věcech, na kterých "
+"pracujete.%(BW_GOALS)s%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_overdue_manager.html:7
+#, python-format
+msgid ""
+"This is a reminder that the %(BW_GOAL)s create deadline has already passed: "
+"<strong>%(end_date)s</strong>.<br> We know your team is working hard, but "
+"please encourage this team member to create %(BW_GOALS)s:<!-- IGNORE_WORD "
+"-->"
+msgstr ""
+"Toto je připomínka, že lhůta pro vytvoření cílů už uplynula: "
+"<strong>%(end_date)s</strong>.<br> Víme, že váš tým tvrdě pracuje, ale "
+"pobídněte tohoto člena týmu, aby si vytvořil cíle:<!-- IGNORE_WORD "
+"-->%(BW_GOAL)s%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_overdue_manager.html:18
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue_manager.html:18
+#, python-format
+msgid "Email %(user_name)s"
+msgstr "Napsat e-mail uživateli %(user_name)s"
+
+#: emails/templates/compliance/goal_overdue_manager_many.html:7
+#, python-format
+msgid ""
+"This is a reminder that the %(BW_GOAL)s create deadline has already passed: "
+"<strong>%(end_date)s</strong>.<br> We know your team is working hard, but "
+"please encourage these team members to create %(BW_GOALS)s:<!-- IGNORE_WORD "
+"-->"
+msgstr ""
+"Toto je připomínka, že lhůta pro vytvoření cílů už uplynula: "
+"<strong>%(end_date)s</strong>.<br> Víme, že váš tým tvrdě pracuje, ale "
+"pobídněte členy týmu, aby si vytvořili cíle:<!-- IGNORE_WORD "
+"-->%(BW_GOAL)s%(BW_GOALS)s"
+
+#: emails/templates/compliance/goal_overdue_manager_many.html:19
+#: emails/templates/compliance/goal_overdue_manager_many.html:20
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue_manager_many.html:19
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue_manager_many.html:20
+msgid "Email these team members"
+msgstr "Napsat e-mail těmto členům týmu"
+
+#: emails/templates/compliance/goal_reminder.html:11
+#, python-format
+msgid "Create my %(BW_GOALS)s"
+msgstr "Vytvořit si cíle%(BW_GOALS)s"
+
+#: emails/templates/compliance/mid_period_checkin.html:7
+#, python-format
+msgid "It's been over a day since you last updated this %(BW_GOAL)s."
+msgid_plural ""
+"It's been over %(number)s days since you last updated this %(BW_GOAL)s."
+msgstr[0] ""
+"Je to více než den, co jste naposledy aktualizovali tento cíl.%(BW_GOAL)s"
+msgstr[1] ""
+"Jsou to více než %(number)s dny, co jste naposledy aktualizovali tento "
+"cíl.%(BW_GOAL)s"
+msgstr[2] ""
+"Je to více než %(number)s dní, co jste naposledy aktualizovali tento "
+"cíl.%(BW_GOAL)s"
+msgstr[3] ""
+"Je to více než %(number)s dní, co jste naposledy aktualizovali tento "
+"cíl.%(BW_GOAL)s"
+
+#: emails/templates/compliance/mid_period_checkin.html:12
+#: emails/templates/compliance/mid_period_checkin_many.html:17
+msgid "We know you're working hard to make progress."
+msgstr "Víme, že tvrdě pracujete na tom, abyste se posunuli dál."
+
+#: emails/templates/compliance/mid_period_checkin.html:15
+#: emails/templates/compliance/mid_period_checkin_many.html:20
+msgid "Update now to let everyone know what you've been up to."
+msgstr "Aktualizujte své cíle hned, abyste dali všem vědět, co jste dělali."
+
+#: emails/templates/compliance/mid_period_checkin_many.html:12
+#, python-format
+msgid "It's been over a day since you last updated these %(BW_GOALS)s."
+msgid_plural ""
+"It's been over %(number)s days since you last updated these %(BW_GOALS)s."
+msgstr[0] ""
+"Je to více než den, co jste naposledy aktualizovali tyto cíle.%(BW_GOALS)s"
+msgstr[1] ""
+"Je to více než %(number)s dny, co jste naposledy aktualizovali tyto "
+"cíle.%(BW_GOALS)s"
+msgstr[2] ""
+"Je to více než %(number)s dní, co jste naposledy aktualizovali tyto "
+"cíle.%(BW_GOALS)s"
+msgstr[3] ""
+"Je to více než %(number)s dní, co jste naposledy aktualizovali tyto "
+"cíle.%(BW_GOALS)s "
+
+#: emails/templates/conversation/adhoc_conversation_created.html:11
+#: emails/templates/custom_templates/colgate_palmolive/conversation/adhoc_conversation_created.html:11
+#, python-format
+msgid "Hi <strong>%(name)s</strong>,"
+msgstr "Dobrý den, <strong>%(name)s</strong>,"
+
+#: emails/templates/conversation/adhoc_conversation_created.html:15
+#, python-format
+msgid ""
+"<strong>%(subject)s</strong> has created %(BW_A_CONVERSATION)s with you. "
+"Take a look at the questions and schedule some time to meet."
+msgstr ""
+"Uživatel <strong>%(subject)s</strong> s vámi vytvořil konverzaci. Podívejte "
+"se na dotazy a naplánujte si, kdy se setkáte.%(BW_A_CONVERSATION)s"
+
+#: emails/templates/conversation/base_conversation_notification.html:53
+#: emails/templates/conversation/conversation_start_notification.html:34
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_start_notification.html:27
+#, python-format
+msgid "View %(BW_CAP_CONVERSATION)s"
+msgstr "Zobrazit konverzaci%(BW_CAP_CONVERSATION)s"
+
+#: emails/templates/conversation/base_conversation_notification.html:61
+#: emails/templates/conversation/conversation_start_notification.html:28
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_start_notification.html:21
+#, python-format
+msgid "View my %(BW_CAP_CONVERSATIONS)s"
+msgstr "Zobrazit mé konverzace%(BW_CAP_CONVERSATIONS)s"
+
+#: emails/templates/conversation/base_conversation_reminder_notification.html:10
+#: emails/templates/conversation/conversation_take_ownership_notification.html:7
+#: emails/templates/feedback/feedback_edited_after_request_to_edit_notification.html:17
+#, python-format
+msgid "Hi %(user_name)s,"
+msgstr "Dobrý den, %(user_name)s,"
+
+#: emails/templates/conversation/batch/unlocked.html:15
+#, python-format
+msgid "Your %(BW_CONVERSATION)s is open with - <strong>%(name)s</strong>."
+msgstr ""
+"Vaše konverzace je otevřená s uživatelem "
+"<strong>%(name)s</strong>.%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/batch/unlocked.html:21
+#: emails/templates/conversation/conversation_contributor_invited_notification.html:25
+#, python-format
+msgid "View %(BW_CONVERSATION)s"
+msgstr "Zobrazit konverzaci%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_contributor_invited_notification.html:10
+#: emails/templates/conversation/conversation_template_disabled_notification.html:6
+#: emails/templates/conversation/conversation_unlocked_notification.html:10
+#: emails/templates/feedback/feedback_unlocked_notification.html:10
+#, python-format
+msgid "Hi <strong>%(user)s</strong>,"
+msgstr "Dobrý den, <strong>%(user)s</strong>,"
+
+#: emails/templates/conversation/conversation_contributor_invited_notification.html:16
+#, python-format
+msgid ""
+"You have been invited as an additional contributor to the "
+"<strong>%(conversation_name)s</strong> %(BW_CONVERSATION)s between "
+"%(manager)s and %(direct_report)s. %(manager)s invites you to provide your "
+"thoughts on %(direct_report)s's contributions."
+msgstr ""
+"Byli jste pozváni jako dodatečný přispěvatel do konverzace s názvem "
+"<strong>%(conversation_name)s</strong> mezi vedoucím %(manager)s a přímým "
+"podřízeným %(direct_report)s. Vedoucí %(manager)svás žádá, abyste poskytli "
+"svůj názor na přínosy přímého podřízeného "
+"%(direct_report)s.%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_deploy_notification.html:6
+#: emails/templates/conversation/conversation_edit_requests_notification.html:11
+#: emails/templates/feedback/feedback_edit_requests_notification.html:11
+#: emails/templates/feedback/feedback_edited_after_request_to_edit_employee_notification.html:17
+#, python-format
+msgid "Hi <strong>%(user_name)s</strong>,"
+msgstr "Dobrý den, <strong>%(user_name)s</strong>,"
+
+#: emails/templates/conversation/conversation_deploy_notification.html:13
+#, python-format
+msgid ""
+"We wanted to remind you that %(template_name)s is about to start for "
+"%(num_participants)s people in your company at 12:00 AM on %(deploy_date)s."
+msgstr ""
+"chceme vám připomenout, že %(deploy_date)s v 12:00 začíná %(template_name)s "
+"pro %(num_participants)s lidi/lidí z vaší společnosti."
+
+#: emails/templates/conversation/conversation_deploy_notification.html:19
+#, python-format
+msgid ""
+"If this isn't what you wanted to do, please un-deploy the "
+"%(BW_CONVERSATION)s before it begins on %(deploy_date)s."
+msgstr ""
+"Pokud to není to, co jste chtěli udělat, odpojte se z konverzace, než "
+"%(deploy_date)s začne.%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_deploy_notification.html:30
+#, python-format
+msgid "View %(BW_CONVERSATION)s template"
+msgstr "Zobrazit šablonu konverzace%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_due_notification.html:7
+#, python-format
+msgid ""
+"Today is the last day for you to complete "
+"<strong>%(conversation_name)s</strong>. Please take a few minutes to ensure "
+"you are done."
+msgstr ""
+"Dnes je poslední den, kdy můžete dokončit konverzaci "
+"<strong>%(conversation_name)s</strong>. Udělejte si chvilku čas, abyste se "
+"ujistili, že je vše hotovo. "
+
+#: emails/templates/conversation/conversation_edit_requests_notification.html:17
+#, python-format
+msgid ""
+"Some employees need to edit %(BW_CONVERSATIONS)s that are currently locked. "
+"Please approve or deny these requests."
+msgstr ""
+"Někteří zaměstnanci potřebují upravit konverzace, které jsou momentálně "
+"zamknuté. Povolte nebo zamítněte tyto žádosti.%(BW_CONVERSATIONS)s"
+
+#: emails/templates/conversation/conversation_edit_requests_notification.html:23
+#, python-format
+msgid "<strong>%(request_count)s</strong> requests are pending."
+msgstr "Počet nevyřízených žádostí: <strong>%(request_count)s</strong>"
+
+#: emails/templates/conversation/conversation_edit_requests_notification.html:28
+#: reports/emailreports/conversationmultireport.py:212
+#: reports/emailreports/useractivitymultireport.py:248
+msgid "Department"
+msgstr "Oddělení"
+
+#: emails/templates/conversation/conversation_edit_requests_notification.html:29
+#: emails/templates/feedback/feedback_edit_requests_notification.html:30
+msgid "Requests"
+msgstr "Žádosti"
+
+#: emails/templates/conversation/conversation_edit_requests_notification.html:41
+#, python-format
+msgid ""
+"An employee needs to edit %(BW_A_CONVERSATION)s that’s currently locked. "
+"Please approve or deny this request."
+msgstr ""
+"Zaměstnanec potřebuje upravit konverzaci%(BW_A_CONVERSATION)s, která je "
+"momentálně zamknutá. Povolte nebo zamítněte tuto žádost."
+
+#: emails/templates/conversation/conversation_edit_requests_notification.html:55
+#: emails/templates/feedback/feedback_edit_requests_notification.html:55
+msgid "Manage request"
+msgid_plural "Manage requests"
+msgstr[0] "Spravovat žádost"
+msgstr[1] "Spravovat žádosti"
+msgstr[2] "Spravovat žádosti"
+msgstr[3] "Spravovat žádosti"
+
+#: emails/templates/conversation/conversation_midcycle_notification.html:7
+#, python-format
+msgid ""
+"Your final responses to <strong>%(conversation_name)s</strong> are due "
+"<strong>%(date)s</strong>. Please complete your responses by then."
+msgstr ""
+"Vaše finální odpovědi v konverzaci <strong>%(conversation_name)s</strong> "
+"mají termín <strong>%(date)s</strong>. Odpovězte na ně prosím do tohoto "
+"data."
+
+#: emails/templates/conversation/conversation_overdue_notification.html:7
+#, python-format
+msgid ""
+"It looks like you still need to complete "
+"<strong>%(conversation_name)s</strong>. It was due on "
+"<strong>%(date)s</strong>. Please take a few minutes to ensure you're done "
+"and share your responses."
+msgstr ""
+"Zdá se, že vám stále zbývá dokončit konverzaci "
+"<strong>%(conversation_name)s</strong>. Termín byl "
+"<strong>%(date)s</strong>. Udělejte si chvilku čas, abyste se ujistili, že "
+"je vše hotovo, a podělte se o své odpovědi."
+
+#: emails/templates/conversation/conversation_postcycle_due_notification.html:7
+#, python-format
+msgid ""
+"Thank you for taking part in this %(BW_CONVERSATION)s. Today is the last day"
+" to finalize answers for the additional questions asked in "
+"<strong>%(conversation_name)s</strong>. <br><br> Please take a few minutes "
+"to review your answers and complete the %(BW_CONVERSATION)s today. These "
+"answers will only be viewed by system admins."
+msgstr ""
+"Děkujeme, že jste se zúčastnili této konverzace. Dnes je poslední den, kdy "
+"můžete dokončit své odpovědi na dodatečné otázky položené v konverzaci "
+"<strong>%(conversation_name)s</strong>. <br><br> Udělejte si dnes prosím "
+"chvilku čas na to, abyste zkontrolovali své odpovědi a konverzaci dokončili."
+" Tyto odpovědi uvidí pouze správci "
+"systému.%(BW_CONVERSATION)s%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_postcycle_started_notification.html:8
+#, python-format
+msgid ""
+"<strong>%(conversation_name)s</strong> ended yesterday. The additional "
+"questions are available to answer from today until "
+"<strong>%(due_date)s</strong>. These questions will help system admins "
+"collect additional data points on the %(BW_CONVERSATION)s."
+msgstr ""
+"<strong>Konverzace %(conversation_name)s</strong> skončila včera. Dodatečné "
+"otázky můžete zodpovědět ode dneška do <strong>%(due_date)s</strong>. Ty "
+"správcům systému pomohou shromáždit dodatečné údaje o "
+"konverzaci.%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_postcycle_started_notification.html:15
+msgid ""
+"\n"
+"      Note: You will need to share the initial questions before the additional questions are made available to answer.\n"
+"      "
+msgstr ""
+"\n"
+"      Poznámka: Než bude možné zodpovědět dodatečné otázky, budete muset sdílet výchozí otázky.\n"
+"      "
+
+#: emails/templates/conversation/conversation_reminder.html:10
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_reminder.html:12
+#, python-format
+msgid "Complete %(BW_CONVERSATION)s"
+msgstr "Dokončit konverzaci%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_shared_by_contributor_notification.html:13
+#, python-format
+msgid ""
+"%(user_name)s shared their responses about %(employee_name)s for your "
+"review. Please click below to see them."
+msgstr ""
+"Uživatelé %(user_name)s s vámi sdílí své odpovědi ohledně zaměstnanců "
+"%(employee_name)s kvůli jejich zhodnocení. Kliknutím níže je zobrazíte."
+
+#: emails/templates/conversation/conversation_shared_by_third_party_notification.html:13
+#, python-format
+msgid ""
+"%(user_name)s has shared your %(conversation_name)s with %(employee_name)s"
+msgstr ""
+"Uživatel %(user_name)s sdílel vaši konverzaci %(conversation_name)s se "
+"zaměstnancem %(employee_name)s."
+
+#: emails/templates/conversation/conversation_shared_notification.html:17
+#, python-format
+msgid "%(user_name)s shared their %(conversation_name)s responses with you."
+msgstr ""
+"Uživatel %(user_name)s s vámi sdílel své odpovědi z konverzace "
+"%(conversation_name)s."
+
+#: emails/templates/conversation/conversation_shared_notification.html:21
+#, python-format
+msgid ""
+"Your manager's responses for %(conversation_name)s have been shared with "
+"you."
+msgstr ""
+"Byly s vámi sdíleny odpovědi vašeho vedoucího v konverzaci "
+"%(conversation_name)s."
+
+#: emails/templates/conversation/conversation_start_notification.html:7
+#, python-format
+msgid ""
+"It's time for %(BW_CONVERSATIONS)s between direct reports and managers to "
+"begin. You've been asked to participate in "
+"<strong>%(conversation_name)s</strong>."
+msgstr ""
+"Je čas zahájit konverzaci mezi přímými podřízenými a vedoucími. Byl/a jste "
+"požádán/a, abyste se zúčastnil/a konverzace "
+"<strong>%(conversation_name)s</strong>.%(BW_CONVERSATIONS)s"
+
+#: emails/templates/conversation/conversation_start_notification.html:13
+#, python-format
+msgid ""
+"This %(BW_CONVERSATION)s should be completed by <strong>%(date)s</strong>."
+msgstr ""
+"Tato konverzace by měla být hotová do "
+"<strong>%(date)s</strong>.%(BW_CONVERSATION)s"
+
+#: emails/templates/conversation/conversation_start_notification.html:18
+msgctxt "E.g. You will be meeting with: user_name1, user_name2"
+msgid "You will be meeting with:"
+msgstr "Spojíte se s:"
+
+#: emails/templates/conversation/conversation_submit_end_notification.html:7
+#, python-format
+msgid ""
+"This is a reminder to complete your responses to "
+"<strong>%(conversation_name)s</strong> and submit to HR before "
+"<strong>%(submit_end)s</strong>."
+msgstr ""
+"Tímto vám připomínáme, abyste dokončili své odpovědi v konverzaci "
+"<strong>%(conversation_name)s</strong> a poslali je oddělení HR před datem "
+"<strong>%(submit_end)s</strong>."
+
+#: emails/templates/conversation/conversation_submit_end_notification.html:15
+msgid "Complete my responses"
+msgstr "Dokončit mé odpovědi"
+
+#: emails/templates/conversation/conversation_take_ownership_notification.html:15
+#, python-format
+msgid ""
+"With a recent management change, you now have new active "
+"%(BW_CONVERSATIONS)s with your direct reports. In order to conduct these new"
+" %(BW_CONVERSATIONS)s, you will need to take ownership of them."
+msgstr ""
+"Po nedávné změně ve vedení máte nyní nové aktivní konverzace s přímými "
+"podřízenými. Abyste mohli tyto nové konverzace vést, musíte je převzít do "
+"svého vlastnictví.%(BW_CONVERSATIONS)s%(BW_CONVERSATIONS)s"
+
+#: emails/templates/conversation/conversation_take_ownership_notification.html:20
+#, python-format
+msgid ""
+"You can click on each one here to take ownership, or you can see them in "
+"your %(BW_CONVERSATIONS)s list in the Betterworks application."
+msgstr ""
+"Zde můžete na každou z nich kliknout a převzít vlastnictví, nebo si je "
+"můžete prohlédnout v seznamu konverzací v aplikaci "
+"Betterworks.%(BW_CONVERSATIONS)s"
+
+#: emails/templates/conversation/conversation_take_ownership_notification.html:35
+#, python-format
+msgid "VIEW ALL ACTIVE %(BW_CAP_CONVERSATIONS)s"
+msgstr "ZOBRAZIT VŠECHNY AKTIVNÍ KONVERZACE%(BW_CAP_CONVERSATIONS)s"
+
+#: emails/templates/conversation/conversation_take_ownership_notification_snippet.html:30
+msgid "TAKE OWNERSHIP"
+msgstr "PŘEVZÍT VLASTNICTVÍ"
+
+#: emails/templates/conversation/conversation_template_disabled_notification.html:14
+#, python-format
+msgid ""
+"%(user)s cancelled the %(BW_CONVERSATION)s named %(deployment_name)s that "
+"began on %(start_date)s. Any information provided by the participants is no "
+"longer available."
+msgstr ""
+"Uživatel %(user)s zrušil konverzaci %(BW_CONVERSATION)s s názvem "
+"%(deployment_name)s, která začala dne %(start_date)s. Žádné informace "
+"poskytnuté účastníky již nebudou dostupné."
+
+#: emails/templates/conversation/conversation_unlocked_notification.html:16
+#, python-format
+msgid ""
+"Your administrator has approved your request to edit "
+"<strong>%(conversation_name)s</strong> with %(user)s. You can make changes "
+"through %(unlocked_date)s. Make your changes soon, because editing will not "
+"be available after that time."
+msgstr ""
+"Váš správce schválil vaši žádost o úpravu konverzace "
+"<strong>%(conversation_name)s</strong> s uživatelem %(user)s. Změny můžete "
+"provádět až do %(unlocked_date)s. Udělejte je brzy, protože po uplynutí této"
+" doby již konverzaci nebudete moci upravovat."
+
+#: emails/templates/conversation/conversation_unlocked_notification.html:26
+#, python-format
+msgid "Edit %(BW_CONVERSATION)s"
+msgstr "Upravit konverzaci%(BW_CONVERSATION)s"
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/final_checkin.html:7
+msgid ""
+"You have Objectives that are due soon. Take a few minutes to provide a final"
+" update on your accomplishments."
+msgstr ""
+"Máte cíle, které brzy skončí. Udělejte si chvilku čas, abyste naposledy "
+"aktualizovali, čeho jste dosáhli."
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_create_soon.html:6
+msgid ""
+"If you have already created your Objectives, great! You're ahead of schedule"
+" and contributing to important priorities for your organization."
+msgstr ""
+"Skvělá práce, pokud jste své cíle již zadali. Jste napřed a podílíte se na "
+"důležitých prioritách své organizace."
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_create_soon.html:10
+#, python-format
+msgid ""
+"If you have not created your Objectives, please have a discussion with your "
+"manager and input Objectives by %(due_date)s."
+msgstr ""
+"Pokud jste cíle zatím nevytvořili, promluvte si o nich se svým vedoucím a "
+"zadejte je do %(due_date)s."
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue.html:6
+msgid ""
+"<strong>You haven't set any Objectives yet.</strong> <br><br> We know you're"
+" busy working hard, which is why it's important to take a few minutes to "
+"create Objectives."
+msgstr ""
+"<strong>Zatím jste si neurčili žádné cíle.</strong> <br><br> Víme, že pilně "
+"pracujete, a proto je důležité udělat si chvilku času na vytvoření cílů."
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue_manager.html:7
+#, python-format
+msgid ""
+"This is a reminder that the deadline to create Objectives has passed: "
+"<strong>%(end_date)s</strong>.<br> We know your team is working hard, but "
+"please encourage this team member to create Objectives:<!-- IGNORE_WORD -->"
+msgstr ""
+"Toto je připomínka, že lhůta pro vytvoření cílů již uplynula: "
+"<strong>%(end_date)s</strong>.<br> Víme, že váš tým pilně pracuje, ale "
+"vyzvěte tohoto člena týmu, aby vytvořil cíle:<!-- IGNORE_WORD -->"
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/goal_overdue_manager_many.html:7
+#, python-format
+msgid ""
+"This is a reminder that the deadline to create Objectives has passed: "
+"<strong>%(end_date)s</strong>.<br> We know your team is working hard, but "
+"please encourage these team members to create Objectives:<!-- IGNORE_WORD "
+"-->"
+msgstr ""
+"Toto je připomínka, že lhůta pro vytvoření cílů již uplynula: "
+"<strong>%(end_date)s</strong>.<br> Víme, že váš tým pilně pracuje, ale "
+"vyzvěte tyto členy týmu, aby vytvořili cíle:<!-- IGNORE_WORD -->"
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/mid_period_checkin.html:7
+#, python-format
+msgid "It's been over a day since you last updated this Objective."
+msgid_plural ""
+"It's been over %(number)s days since you last updated this Objective."
+msgstr[0] ""
+"Je to více než jeden den, co jste naposledy aktualizovali tento cíl."
+msgstr[1] ""
+"Je to více než %(number)s dny, co jste naposledy aktualizovali tento cíl."
+msgstr[2] ""
+"Je to více než %(number)s dne, co jste naposledy aktualizovali tento cíl."
+msgstr[3] ""
+"Je to více než %(number)s dní, co jste naposledy aktualizovali tento cíl."
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/mid_period_checkin.html:12
+#: emails/templates/custom_templates/colgate_palmolive/compliance/mid_period_checkin_many.html:17
+msgid ""
+"We know you're working hard to make progress which is why it's important to "
+"take a few minutes to provide an update."
+msgstr ""
+"Víme, že pilně pracujete, abyste pokročili dál, a proto je důležité udělat "
+"si chvilku času na provedení úprav."
+
+#: emails/templates/custom_templates/colgate_palmolive/compliance/mid_period_checkin_many.html:12
+#, python-format
+msgid "It's been over a day since you last updated these Objectives."
+msgid_plural ""
+"It's been over %(number)s days since you last updated these Objectives."
+msgstr[0] ""
+"Je to více než jeden den, co jste naposledy aktualizovali tyto cíle."
+msgstr[1] ""
+"Je to více než %(number)s dny, co jste naposledy aktualizovali tyto cíle."
+msgstr[2] ""
+"Je to více než %(number)s dne, co jste naposledy aktualizovali tyto cíle."
+msgstr[3] ""
+"Je to více než %(number)s dní, co jste naposledy aktualizovali tyto cíle."
+
+#: emails/templates/custom_templates/colgate_palmolive/conversation/adhoc_conversation_created.html:15
+#, python-format
+msgid ""
+"<strong>%(subject)s</strong> has started %(BW_A_CONVERSATION)s with you.<!--"
+" IGNORE_WORD --> Take a look at the questions and schedule some time to "
+"meet."
+msgstr ""
+"<strong>%(subject)s</strong> s vámi zahájil/a konverzaci.<!-- IGNORE_WORD "
+"--> Podívejte se na otázky a domluvte si schůzku.%(BW_A_CONVERSATION)s"
+
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_due_notification.html:7
+#, python-format
+msgid ""
+"Today is the last day for you to complete "
+"<strong>%(conversation_name)s</strong>. Please take a few minutes to ensure "
+"you complete it."
+msgstr ""
+"Today is the last day for you to complete "
+"<strong>%(conversation_name)s</strong>. Please take a few minutes to ensure "
+"you complete it."
+
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_overdue_notification.html:7
+#, python-format
+msgid ""
+"It looks like you still need to complete "
+"<strong>%(conversation_name)s</strong>. It was due on "
+"<strong>%(date)s</strong>. Please take a few minutes to ensure you complete "
+"it and share your responses."
+msgstr ""
+"It looks like you still need to complete "
+"<strong>%(conversation_name)s</strong>. It was due on "
+"<strong>%(date)s</strong>. Please take a few minutes to ensure you complete "
+"it and share your responses."
+
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_reminder.html:6
+#, python-format
+msgid ""
+"This is a reminder to complete your responses to "
+"<strong>%(conversation_name)s</strong> before <strong>%(due_date)s</strong>."
+msgstr ""
+"This is a reminder to complete your responses to "
+"<strong>%(conversation_name)s</strong> before <strong>%(due_date)s</strong>."
+
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_start_notification.html:7
+#, python-format
+msgid ""
+"You've been asked to participate in <strong>%(conversation_name)s</strong>."
+msgstr ""
+"You've been asked to participate in <strong>%(conversation_name)s</strong>."
+
+#: emails/templates/custom_templates/colgate_palmolive/conversation/conversation_start_notification.html:12
+#, python-format
+msgid ""
+"This Conversation should be completed by <strong>%(date)s</strong>.<!-- "
+"IGNORE_WORD -->"
+msgstr ""
+"This Conversation should be completed by <strong>%(date)s</strong>.<!-- "
+"IGNORE_WORD -->"
+
+#: emails/templates/custom_templates/colgate_palmolive/feedback/feedback_received.html:7
+msgid ""
+"You have received Feedback to help your professional growth.<!-- IGNORE_WORD"
+" -->"
+msgstr ""
+"Obdrželi jste zpětnou vazbu, která vám pomůže profesně růst.<!-- IGNORE_WORD"
+" -->"
+
+#: emails/templates/custom_templates/colgate_palmolive/feedback/feedback_received.html:14
+#: emails/templates/custom_templates/colgate_palmolive/feedback/feedback_received_manager.html:14
+msgid "View Feedback"
+msgstr "Zobrazit zpětnou vazbu"
+
+#: emails/templates/custom_templates/colgate_palmolive/feedback/feedback_received_manager.html:7
+msgid ""
+"Your direct report has received Feedback to help their professional "
+"growth.<!-- IGNORE_WORD -->"
+msgstr ""
+"Váš přímý podřízený obdržel zpětnou vazbu, která mu pomůže profesně "
+"růst.<!-- IGNORE_WORD -->"
+
+#: emails/templates/custom_templates/colgate_palmolive/goal/goal_overdue_notification.html:13
+#: reports/emailreports/baseemailreport.py:122
+#, python-format
+msgid "Hi %(user)s,"
+msgstr "Dobrý den, %(user)s,"
+
+#: emails/templates/custom_templates/colgate_palmolive/goal/goal_overdue_notification.html:23
+#: emails/templates/goal/goal_overdue_notification.html:27
+#, python-format
+msgid ""
+"%(goal)s was due %(end_date)s <br> Would you like to make any additional "
+"updates to it?"
+msgstr ""
+"Termín pro cíl %(goal)s byl %(end_date)s. <br>Chcete v něm udělat nějaké "
+"dodatečné úpravy?"
+
+#: emails/templates/feedback/adhoc_feedback_reminder_notification.html:5
+#, python-format
+msgid "<strong>Hi %(recipient_name)s</strong>!"
+msgstr "<strong>Dobrý den, %(recipient_name)s</strong>!"
+
+#: emails/templates/feedback/adhoc_feedback_reminder_notification.html:12
+#, python-format
+msgid ""
+"<strong>%(requester_name)s</strong> is waiting for your %(BW_FEEDBACK)s. "
+"Giving your colleagues %(BW_FEEDBACK)s helps them grow!"
+msgstr ""
+"<strong>%(requester_name)s</strong> čeká na vaši zpětnou vazbu. Poskytování "
+"zpětné vazby vašim kolegům jim pomáhá růst!%(BW_FEEDBACK)s%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/adhoc_feedback_reminder_notification.html:18
+#, python-format
+msgid ""
+"You have until <strong>%(cycle_end)s</strong> to provide your "
+"%(BW_FEEDBACK)s."
+msgstr ""
+"Na poskytnutí zpětné vazby máte čas do "
+"<strong>%(cycle_end)s</strong>.%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/adhoc_feedback_reminder_notification.html:26
+#, python-format
+msgid "Provide %(BW_FEEDBACK)s"
+msgstr "Poskytnout zpětnou vazbu%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/adhoc_feedback_requested_by_manager_notification.html:7
+#, python-format
+msgid "%(manager)s would like to get your %(BW_FEEDBACK)s about %(for_user)s"
+msgstr ""
+"Vedoucí %(manager)s by rád získal vaši zpětnou vazbu o uživateli "
+"%(for_user)s%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/adhoc_feedback_requested_by_manager_notification.html:15
+#, python-format
+msgid "Give %(BW_FEEDBACK)s"
+msgstr "Poskytnout zpětnou vazbu%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/adhoc_feedback_requested_notification.html:7
+#, python-format
+msgid ""
+"%(full_name)s values your %(BW_FEEDBACKS)s and would appreciate if you'd "
+"take a few minutes to provide your thoughts on the question below. By "
+"providing %(BW_FEEDBACKS)s, you are helping your colleague's professional "
+"growth."
+msgstr ""
+"Uživatel %(full_name)s si cení vaší zpětné vazby a byl by rád, kdybyste si "
+"udělali chvilku čas a podělili se o svůj názor na otázky níže. Poskytnutím "
+"zpětné vazby pomáháte profesionálnímu růstu svého "
+"kolegy.%(BW_FEEDBACKS)s%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/adhoc_feedback_requested_notification.html:15
+msgid "Question:"
+msgstr "Otázka:"
+
+#: emails/templates/feedback/adhoc_feedback_requested_notification.html:23
+#: emails/templates/feedback/feedback_requested_notification.html:19
+msgid "Questions:"
+msgstr "Otázky:"
+
+#: emails/templates/feedback/adhoc_feedback_requested_notification.html:35
+#: emails/templates/feedback/feedback_reminder_notification.html:20
+#: emails/templates/feedback/feedback_requested_notification.html:29
+msgid "Answer questions"
+msgstr "Zodpovědět otázky"
+
+#: emails/templates/feedback/base_feedback_notification.html:29
+#: emails/templates/impersonation/impersonation_notification.html:21
+#, python-format
+msgid "Hi <strong>%(preferred_name)s</strong>,"
+msgstr "Dobrý den, <strong>%(preferred_name)s</strong>,"
+
+#: emails/templates/feedback/feedback_cycle_started.html:9
+#, python-format
+msgid ""
+"The people listed below will be contacted to provide %(BW_FEEDBACKS)s about "
+"you. You can modify this list until <strong>%(selection_end)s</strong>."
+msgstr ""
+"lidé uvedení níže budou kontaktováni, aby na vás poskytli zpětnou vazbu. "
+"Tento seznam můžete upravit do "
+"<strong>%(selection_end)s</strong>.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_cycle_started.html:20
+#, python-format
+msgid ""
+"A %(BW_FEEDBACK)s cycle has begun. You have until "
+"<strong>%(selection_end)s</strong> to choose who you would like "
+"%(BW_FEEDBACKS)s from."
+msgstr ""
+"Byl zahájen cyklus zpětných vazeb. Do <strong>%(selection_end)s</strong> si "
+"vyberte, od koho byste ji rádi dostali.%(BW_FEEDBACKS)s%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_cycle_started.html:30
+msgid "They'll be asked to answer this question:"
+msgstr "Vybraní lidé budou požádáni, aby zodpověděli tuto otázku:"
+
+#: emails/templates/feedback/feedback_cycle_started.html:32
+msgid "They'll be asked to answer these questions:"
+msgstr "Vybraní lidé budou požádáni, aby zodpověděli tyto otázky:"
+
+#: emails/templates/feedback/feedback_cycle_started.html:44
+msgid "Edit list"
+msgstr "Upravit seznam"
+
+#: emails/templates/feedback/feedback_cycle_started_manager.html:7
+#, python-format
+msgid ""
+"A list of people to provide %(BW_FEEDBACKS)s to your direct reports has been"
+" generated. You can view and edit their lists until "
+"<strong>%(selection_end)s</strong>."
+msgstr ""
+"Byl vytvořen seznam lidí, kteří mají poskytnout zpětnou vazbu na vaše přímé "
+"podřízené. Do <strong>%(selection_end)s</strong> si můžete seznam zobrazit a"
+" upravovat.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_cycle_started_manager.html:13
+#, python-format
+msgid ""
+"Remember, %(BW_A_FEEDBACK)s is transparent between you and your direct, so "
+"you'll be able to see what colleagues have said about your directs."
+msgstr ""
+"Pamatujte, zpětná vazba mezi vámi a vašimi podřízenými je transparentní, "
+"takže uvidíte, co vaši kolegové řekli o vašich podřízených.%(BW_A_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_cycle_started_manager.html:22
+msgid "View lists"
+msgstr "Zobrazit seznamy"
+
+#: emails/templates/feedback/feedback_deployment.html:7
+#, python-format
+msgid ""
+"We wanted to remind you that %(template_name)s is about to start for "
+"%(num_participants)s people in your company on %(cycle_start)s."
+msgstr ""
+"Chtěli bychom vám připomenout, že v %(cycle_start)s začne pro "
+"%(num_participants)s lidi/lidí z vaší společnosti %(template_name)s."
+
+#: emails/templates/feedback/feedback_deployment.html:13
+#, python-format
+msgid ""
+"If this isn't what you wanted to do, please disable the %(BW_FEEDBACK)s "
+"template before it begins on %(cycle_start)s."
+msgstr ""
+"Pokud to není to, co jste chtěli udělat, zakažte šablonu zpětné vazby, než "
+"bude cyklus %(cycle_start)s zahájen.%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_deployment.html:22
+#, python-format
+msgid "View %(BW_FEEDBACK)s template"
+msgstr "Zobrazit šablonu zpětné vazby%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_edit_requests_notification.html:17
+#, python-format
+msgid ""
+"Some employees have requested access to edit %(BW_FEEDBACKS)s that is "
+"currently locked. Click 'Manage Requests' below to approve or deny these "
+"requests in the Betterworks application."
+msgstr ""
+"Někteří zaměstnanci požádali o možnost upravit zpětné vazby, které jsou v "
+"současné době uzamčeny. Kliknutím na tlačítko 'Spravovat žádosti' níže "
+"můžete v aplikaci Betterworks tyto žádosti schválit nebo "
+"zamítnout.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_edit_requests_notification.html:24
+#, python-format
+msgid "<strong>%(request_count)s</strong> pending requests."
+msgstr "Počet nevyřízených žádostí <strong>%(request_count)s</strong>."
+
+#: emails/templates/feedback/feedback_edit_requests_notification.html:29
+msgid "Feedback Template"
+msgstr "Šablona zpětné vazby"
+
+#: emails/templates/feedback/feedback_edit_requests_notification.html:42
+#, python-format
+msgid ""
+"An employee has requested access to edit %(BW_FEEDBACK)s that is currently "
+"locked. Click 'Manage Request' below to approve or deny these request in the"
+" Betterworks application."
+msgstr ""
+"Zaměstnanec požádal o možnost upravit zpětnou vazbu, která je v současné "
+"době uzamčena. Kliknutím na tlačítko 'Spravovat žádost' níže můžete v "
+"aplikaci Betterworks tuto žádost schválit nebo zamítnout.%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_edited_after_request_to_edit_employee_notification.html:24
+#, python-format
+msgid ""
+"%(CAP_FEEDBACK)s from <strong>%(provider_name)s</strong> for "
+"<strong>%(template_name)s</strong> has been updated."
+msgstr ""
+
+#: emails/templates/feedback/feedback_edited_after_request_to_edit_employee_notification.html:32
+#: emails/templates/feedback/feedback_edited_after_request_to_edit_notification.html:32
+#, python-format
+msgid "View %(BW_FEEDBACK)s"
+msgstr ""
+
+#: emails/templates/feedback/feedback_edited_after_request_to_edit_notification.html:24
+#, python-format
+msgid ""
+"%(CAP_FEEDBACK)s from <strong>%(provider_name)s</strong> about "
+"<strong>%(for_user_name)s</strong> for <strong>%(template_name)s</strong> "
+"has been updated."
+msgstr ""
+
+#: emails/templates/feedback/feedback_participants.html:23
+#, python-format
+msgid "Works with you on %(total)s %(BW_GOAL)s"
+msgid_plural "Works with you on %(total)s %(BW_GOAL)s"
+msgstr[0] "Pracuje s vámi na %(total)s cíli%(BW_GOAL)s"
+msgstr[1] "Pracuje s vámi na %(total)s cíli%(BW_GOAL)s"
+msgstr[2] "Pracuje s vámi na %(total)s cíli%(BW_GOAL)s"
+msgstr[3] "Pracuje s vámi na %(total)s cíli%(BW_GOAL)s"
+
+#: emails/templates/feedback/feedback_received.html:7
+#, python-format
+msgid ""
+"Great news! People care about your work and have provided %(BW_FEEDBACKS)s."
+msgstr ""
+"Dobré zprávy! Lidem na vaší práci záleží a poskytli vám zpětné "
+"vazby.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_received.html:14
+#: emails/templates/feedback/feedback_received_manager.html:15
+#: emails/templates/feedback/feedback_received_manager_batch.html:19
+msgid "View responses in Betterworks"
+msgstr "Zobrazit odpovědi v aplikaci Betterworks"
+
+#: emails/templates/feedback/feedback_received_manager.html:7
+#, python-format
+msgid ""
+"Great news! People care about %(user)s's work and have provided "
+"%(BW_FEEDBACKS)s."
+msgstr ""
+"Dobré zprávy! Lidem na práci uživatele %(user)s záleží a poskytli zpětné "
+"vazby.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_received_manager_batch.html:7
+#, python-format
+msgid ""
+"Great news! People care about your direct reports' work and have provided "
+"%(BW_FEEDBACKS)s."
+msgstr ""
+"Dobré zprávy! Lidem na práci vašeho přímého podřízeného záleží a poskytli "
+"zpětné vazby.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_reminder_notification.html:7
+#, python-format
+msgid ""
+"Giving your colleagues %(BW_FEEDBACKS)s helps them grow. It looks like some "
+"people are still waiting to hear from you. It'll only take a few minutes to "
+"share your thoughts."
+msgstr ""
+"Když svým kolegům poskytnete zpětnou vazbu, pomáháte jim tím v růstu. Zdá "
+"se, že lidé stále čekají na vaše vyjádření. Podělit se o svůj názor vám "
+"zabere jenom chviličku.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_reminder_notification.html:13
+#, python-format
+msgid ""
+"You have until <strong>%(cycle_end)s</strong> to provide your "
+"%(BW_FEEDBACKS)s."
+msgstr ""
+"Máte čas do <strong>%(cycle_end)s</strong>, abyste se podělili o svou "
+"zpětnou vazbu.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_request_declined.html:20
+#, python-format
+msgid "Hi %(preferred_name)s!"
+msgstr "Dobrý den, %(preferred_name)s!"
+
+#: emails/templates/feedback/feedback_request_declined.html:29
+#, python-format
+msgid ""
+"%(provider_name)s has declined your %(FEEDBACK)s request about your direct "
+"report, %(for_user_name)s, for %(template_name)s on %(decline_date)s"
+msgstr ""
+"%(provider_name)s odmítl/a vaši žádost o zpětnou vazbu na přímého "
+"podřízeného, %(for_user_name)s, %(template_name)s dne "
+"%(decline_date)s%(FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_request_declined.html:36
+#, python-format
+msgid ""
+"%(provider_name)s has declined your %(FEEDBACK)s request for "
+"%(template_name)s on %(decline_date)s"
+msgstr ""
+"%(provider_name)s odmítl/a vaši žádost o zpětnou vazbu %(template_name)s dne"
+" %(decline_date)s%(FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_request_declined.html:50
+#, python-format
+msgid "GO TO %(CAP_FEEDBACK)s"
+msgstr "PŘEJÍT NA ZPĚTNOU VAZBU%(CAP_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_request_edited_by_manager.html:7
+#, python-format
+msgid ""
+"Your manager made some changes to your list so that you're getting "
+"%(BW_FEEDBACKS)s from others that might not have been on the list before. "
+"You won't be able to modify your manager's new additions, but you'll still "
+"be able to make other changes until <strong>%(selection_end)s</strong>."
+msgstr ""
+"Váš vedoucí udělal nějaké změny ve vašem seznamu, takže nyní dostáváte "
+"zpětnou vazbu od lidí, které jste na seznamu předtím nemuseli mít. Změny, "
+"které váš vedoucí udělal, upravit nemůžete, ale stále můžete udělat jiné "
+"změny, a to do <strong>%(selection_end)s</strong>.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_request_edited_by_manager.html:33
+msgid "Added"
+msgstr "Přidaní"
+
+#: emails/templates/feedback/feedback_request_edited_by_manager.html:35
+msgid "Removed"
+msgstr "Odstranění"
+
+#: emails/templates/feedback/feedback_request_edited_by_manager.html:45
+msgid "View list"
+msgstr "Zobrazit seznam"
+
+#: emails/templates/feedback/feedback_requested_notification.html:7
+#, python-format
+msgid ""
+"Your colleagues value your %(BW_FEEDBACKS)s and would appreciate if you'd "
+"take a few minutes to provide your thoughts on the questions below. You have"
+" until <strong>%(cycle_end)s</strong> to complete this %(BW_FEEDBACK)s. By "
+"providing %(BW_FEEDBACKS)s, you are helping your peers' professional growth."
+msgstr ""
+"Vaši kolegové si váží vašich zpětných vazeb a byli by rádi, kdybyste si "
+"udělali chvilku čas a podělili se o svůj názor na otázky níže. Na dokončení "
+"této zpětné vazby máte čas do <strong>%(cycle_end)s</strong>. Poskytnutím "
+"zpětné vazby pomáháte profesionálnímu růstu svých "
+"kolegů.%(BW_FEEDBACKS)s%(BW_FEEDBACK)s%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/feedback_unlocked_notification.html:16
+#, python-format
+msgid ""
+"Your administrator has approved your request to edit the %(BW_FEEDBACK)s you"
+" previously provided for <strong>%(user)s</strong> via the "
+"<strong>%(feedback_name)s</strong> template. The %(BW_FEEDBACK)s will be "
+"editable for a limited time only, so <strong>please make your edits before "
+"%(unlocked_date)s </strong>"
+msgstr ""
+"Váš správce schválil vaši žádost o úpravu zpětné vazby "
+"<strong>%(feedback_name)s</strong>, kterou jste dříve poskytli pro uživatele"
+" <strong>%(user)s</strong>. Úpravy zpětné vazby budou k dispozici pouze po "
+"omezenou dobu, <strong>úpravy proveďte do %(unlocked_date)s "
+"</strong>%(BW_FEEDBACK)s%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/feedback_unlocked_notification.html:27
+#, python-format
+msgid "Edit %(BW_FEEDBACK)s"
+msgstr "Upravit zpětnou vazbu%(BW_FEEDBACK)s"
+
+#: emails/templates/feedback/manager_requested_feedback_received.html:7
+#, python-format
+msgid ""
+"A request for %(BW_FEEDBACKS)s about you from your manager has been "
+"responded to."
+msgstr ""
+"Na žádost vašeho vedoucího o zpětnou vazbu týkající se vaší osoby bylo "
+"odpovězeno.%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/manager_requested_feedback_received.html:15
+#: emails/templates/feedback/manager_requested_feedback_received_manager_batch.html:20
+#, python-format
+msgid "View %(BW_FEEDBACKS)s"
+msgstr "Zobrazit zpětné vazby%(BW_FEEDBACKS)s"
+
+#: emails/templates/feedback/manager_requested_feedback_received_manager_batch.html:7
+#, python-format
+msgid ""
+"Your %(BW_FEEDBACK)s request for the following direct reports have been "
+"responded to."
+msgstr ""
+"Na vaši žádost o zpětnou vazbu týkající se následujících přímých podřízených"
+" bylo odpovězeno.%(BW_FEEDBACK)s"
+
+#: emails/templates/goal/added_as_follower_notification.html:11
+#, python-format
+msgid ""
+"%(user)s added you as a follower to <a href=\"%(url)s\" class=\"link-"
+"default\">%(goal)s</a>"
+msgstr ""
+"Uživatel %(user)s vás přidal jako sledujícího do cíle <a href=\"%(url)s\" "
+"class=\"link-default\">%(goal)s</a>."
+
+#: emails/templates/goal/added_as_follower_notification.html:17
+#, python-format
+msgid ""
+"You can manage the %(BW_GOALS)s you follow under \"%(BW_CAP_GOALS)s\" in "
+"Betterworks."
+msgstr ""
+"Cíle, které sledujete, můžete v aplikaci Betterworks spravovat v sekci "
+"„Cíle“.%(BW_GOALS)s%(BW_CAP_GOALS)s"
+
+#: emails/templates/goal/assessed_mention_notification.html:12
+#, python-format
+msgid "%(user)s mentioned you in an assessment on %(goal)s"
+msgstr "Uživatel %(user)s vás zmínil v hodnocení cíle %(goal)s."
+
+#: emails/templates/goal/base_goal_notification.html:71
+#, python-format
+msgid "View %(BW_CAP_GOAL)s"
+msgstr "Zobrazit cíl%(BW_CAP_GOAL)s"
+
+#: emails/templates/goal/base_goal_notification.html:91
+msgid "Or reply to this email to comment"
+msgstr "Nebo odpovězte na tento e-mail, chcete-li to okomentovat."
+
+#: emails/templates/goal/batch.html:11
+#, python-format
+msgid "%(user)s has updates for you"
+msgstr "Uživatel %(user)s má pro vás novinky."
+
+#: emails/templates/goal/batch.html:15
+#, python-format
+msgid "Happened over the last minute"
+msgid_plural "Happened over the last %(counter)s minutes"
+msgstr[0] "Událo se za poslední minutu."
+msgstr[1] "Událo se za poslední %(counter)s minuty."
+msgstr[2] "Událo se za posledních %(counter)s minut."
+msgstr[3] "Událo se za posledních %(counter)s minut."
+
+#: emails/templates/goal/batch/added_as_contributor.html:18
+#, python-format
+msgid "Added you as a contributor to &ndash; %(goal_name)s"
+msgstr "Přidal/a vás jako přispěvatele k &ndash; cíli %(goal_name)s."
+
+#: emails/templates/goal/batch/assessed_mention.html:18
+#, python-format
+msgid "Mentioned you in an assessment on &ndash; %(link_or_name)s"
+msgstr "Zmínil/a vás v hodnocení &ndash; %(link_or_name)s."
+
+#: emails/templates/goal/batch/checkin.html:18
+#, python-format
+msgid "Updated &ndash; %(goal_name)s"
+msgstr "Aktualizoval/a &ndash; cíl %(goal_name)s."
+
+#: emails/templates/goal/batch/cheer.html:18
+#, python-format
+msgid "Cheered &ndash; %(goal_name)s"
+msgstr "Povzbudil/a v cíli &ndash; %(goal_name)s."
+
+#: emails/templates/goal/batch/comment.html:18
+#, python-format
+msgid "Commented on &ndash; %(link_or_name)s"
+msgstr "Okomentoval/a &ndash; %(link_or_name)s."
+
+#: emails/templates/goal/batch/completed.html:18
+#, python-format
+msgid "Completed &ndash; %(goal_name)s"
+msgstr "Dokončil/a &ndash; cíl %(goal_name)s."
+
+#: emails/templates/goal/batch/contributing_milestone_realigned.html:19
+#, python-format
+msgid "Re-aligned %(goal_name1)s from &ndash; %(goal_name2)s"
+msgstr "Znovu připojil/a cíl %(goal_name1)s z cíle &ndash; %(goal_name2)s."
+
+#: emails/templates/goal/batch/goal_added_to_plan.html:19
+#, python-format
+msgid ""
+"Added your %(BW_GOAL)s %(goal_name)s to their plan &ndash; "
+"%(plan_name_link)s"
+msgstr ""
+"Přidal/a váš cíl %(goal_name)s do svého plánu &ndash; "
+"%(plan_name_link)s.%(BW_GOAL)s"
+
+#: emails/templates/goal/batch/goal_edited.html:18
+#, python-format
+msgid "Edited &ndash; %(goal_name)s"
+msgstr "Upravil/a &ndash; cíl %(goal_name)s."
+
+#: emails/templates/goal/batch/goal_edited.html:23
+#, python-format
+msgid "%(old_name)s changed to <em>%(new_name)s</em>"
+msgstr "Název %(old_name)s byl změněn na <em>%(new_name)s</em>."
+
+#: emails/templates/goal/batch/mention.html:18
+#, python-format
+msgid "Mentioned you on &ndash; %(goal)s"
+msgstr "Zmínil/a vás u cíle &ndash; %(goal)s."
+
+#: emails/templates/goal/batch/milestone_parent_changed.html:19
+#, python-format
+msgid "Moved your %(BW_MILESTONE)s %(goal)s to &ndash; %(goal_parent)s"
+msgstr ""
+"Přesunul/a váš milník cíle %(goal)s k cíli &ndash; "
+"%(goal_parent)s.%(BW_MILESTONE)s"
+
+#: emails/templates/goal/batch/new_contributor.html:19
+#, python-format
+msgid "%(goal)s now contributes to &ndash; %(goal_parent)s"
+msgstr "Cíl %(goal)s se nyní podílí na cíli &ndash; %(goal_parent)s."
+
+#: emails/templates/goal/batch/nudge.html:18
+#, python-format
+msgid "Nudged &ndash; %(goal)s"
+msgstr "Pošťouchl/a cíl &ndash; %(goal)s."
+
+#: emails/templates/goal/batch/parent_alignment_removed.html:18
+#, python-format
+msgid "Alignment removed &ndash; %(goal)s"
+msgstr "Připojení cíle %(goal)s bylo odstraněno."
+
+#: emails/templates/goal/batch/parent_deleted.html:17
+#, python-format
+msgid "Deleted %(BW_A_GOAL)s that you contribute to &ndash;"
+msgstr "Smazal/a cíl, na kterém se podílíte &ndash;%(BW_A_GOAL)s"
+
+#: emails/templates/goal/cheer_notification.html:12
+#: slack/messages/action.py:25
+#, python-format
+msgid "%(user)s cheered %(goal)s"
+msgstr "Uživatel %(user)s povzbudil v cíli %(goal)s."
+
+#: emails/templates/goal/commented_goal_comment_notification.html:12
+#: emails/templates/goal/owned_goal_comment_notification.html:12
+#: slack/messages/comment.py:26
+#, python-format
+msgid "%(user)s commented on %(goal)s"
+msgstr "Uživatel %(user)s okomentoval cíl %(goal)s."
+
+#: emails/templates/goal/commented_goal_comment_notification.html:24
+#, python-format
+msgid "Reply to %(user_name)s"
+msgstr "Odpovědět uživateli %(user_name)s"
+
+#: emails/templates/goal/contributing_goal_deleted.html:12
+#: emails/templates/goal/goal_deleted_notification.html:12
+#: slack/messages/change.py:25
+#, python-format
+msgid "%(user)s deleted %(goal)s"
+msgstr "Uživatel %(user)s smazal cíl %(goal)s."
+
+#: emails/templates/goal/contributing_goal_deleted.html:20
+#, python-format
+msgid "Their progress no longer contributes to %(goal)s"
+msgstr "Jejich postup již nepřispívá k dosažení cíle %(goal)s."
+
+#: emails/templates/goal/contributing_milestone_realigned.html:13
+#, python-format
+msgid ""
+"%(user)s re-aligned %(goal1)s. It is no longer contributing to %(goal2)s."
+msgstr ""
+"Uživatel %(user)s znovu připojil cíl %(goal1)s. Tento cíl již nepřispívá k "
+"dosažení cíle %(goal2)s."
+
+#: emails/templates/goal/contributor_assessed_notification.html:12
+#, python-format
+msgid "%(user)s assessed %(goal)s"
+msgstr "Uživatel %(user)s zhodnotil cíl %(goal)s."
+
+#: emails/templates/goal/goal_added_to_plan_notification.html:14
+#, python-format
+msgid "%(subject)s added %(goal_name)s to their plan %(plan_name)s"
+msgstr "%(subject)s přidal cíl %(goal_name)s do svého plánu %(plan_name)s."
+
+#: emails/templates/goal/goal_added_to_plan_notification.html:21
+msgid "View Plan"
+msgstr "Zobrazit plán"
+
+#: emails/templates/goal/goal_checked_in_notification.html:12
+#, python-format
+msgid "%(author_name)s has updates for you"
+msgstr "%(author_name)s pro vás má novinky."
+
+#: emails/templates/goal/goal_completed_notification.html:12
+#: slack/messages/complete.py:26
+#, python-format
+msgid "%(user)s completed %(goal)s"
+msgstr "Uživatel %(user)s dokončil cíl %(goal)s."
+
+#: emails/templates/goal/goal_deleted_notification.html:19
+#, python-format
+msgid "View My %(BW_CAP_GOAL)s List"
+msgstr "Zobrazit seznam mých cílů%(BW_CAP_GOAL)s"
+
+#: emails/templates/goal/goal_edited_notification_many.html:12
+#, python-format
+msgid "%(user)s has edited %(goal)s"
+msgstr "Uživatel %(user)s upravil cíl %(goal)s."
+
+#: emails/templates/goal/goal_edited_notification_many.html:22
+#, python-format
+msgid "%(attribute_name)s changed to <em>%(new_value)s</em>"
+msgstr ""
+"Název atributu %(attribute_name)s byl změněn na <em>%(new_value)s</em>."
+
+#: emails/templates/goal/goal_edited_notification_single.html:11
+#, python-format
+msgid "%(user)s changed the %(field)s to <em>%(new_value)s</em>"
+msgstr "Uživatel %(user)s změnil pole %(field)s na <em>%(new_value)s</em>."
+
+#: emails/templates/goal/goal_reassigned_notification.html:14
+#, python-format
+msgid "%(user)s reassigned %(goal)s to you"
+msgstr "Uživatel %(user)s vám přidělil cíl %(goal)s."
+
+#: emails/templates/goal/goal_reassigned_notification.html:18
+#, python-format
+msgid "%(user)s reassigned %(goal)s to %(owner)s"
+msgstr "Uživatel %(user)s přidělil cíl %(goal)s vlastníkovi %(owner)s."
+
+#: emails/templates/goal/group_request_access_single.html:11
+#, python-format
+msgid "<strong>%(group_name)s</strong> is requesting access to %(goal)s"
+msgstr ""
+"Skupina <strong>%(group_name)s</strong> žádá o přístup k cíli %(goal)s."
+
+#: emails/templates/goal/integration_disconnected.html:27
+#, python-format
+msgid ""
+"The integration attached to %(goal)s is no longer updating in Betterworks"
+msgstr ""
+"Začlenění připojené k tomuto cíli %(goal)s již není v aplikaci Betterworks "
+"aktualizováno."
+
+#: emails/templates/goal/integration_disconnected.html:34
+msgid "Try reattaching the integration to correct this issue."
+msgstr "Chcete-li tento problém vyřešit, zkuste začlenění znovu připojit."
+
+#: emails/templates/goal/manager_digest/large_checkin_summary.html:17
+#: emails/templates/goal/manager_digest/medium_metric_checkin_summary.html:17
+#: emails/templates/goal/manager_digest/medium_milestone_checkin_summary.html:16
+msgid "Updated"
+msgstr "Aktualizováno"
+
+#: emails/templates/goal/manager_digest/large_completed_summary.html:17
+#: emails/templates/goal/manager_digest/medium_completed_summary.html:17
+msgid "Completed"
+msgstr "Dokončeno"
+
+#: emails/templates/goal/manager_digest/large_created_summary.html:17
+#: emails/templates/goal/manager_digest/medium_created_summary.html:17
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: emails/templates/goal/manager_digest/large_deleted_summary.html:17
+#: emails/templates/goal/manager_digest/medium_deleted_summary.html:18
+msgid "Deleted"
+msgstr "Smazáno"
+
+#: emails/templates/goal/manager_digest/large_direct_summary.html:16
+#, python-format
+msgid ""
+"%(profile_link)s updated <strong>%(goal_counter)s %(BW_GOAL)s</strong>:"
+msgid_plural ""
+"%(profile_link)s updated <strong>%(goal_counter)s %(BW_GOAL)s</strong>:"
+msgstr[0] ""
+"%(profile_link)s aktualizoval <strong>%(goal_counter)s "
+"cíl</strong>:%(BW_GOAL)s"
+msgstr[1] ""
+"%(profile_link)s aktualizoval <strong>%(goal_counter)s "
+"cíle</strong>:%(BW_GOAL)s"
+msgstr[2] ""
+"%(profile_link)s aktualizoval <strong>%(goal_counter)s "
+"cílů</strong>:%(BW_GOAL)s"
+msgstr[3] ""
+"%(profile_link)s aktualizoval <strong>%(goal_counter)s "
+"cílů</strong>:%(BW_GOAL)s"
+
+#: emails/templates/goal/manager_digest/large_manager_digest.html:14
+#: emails/templates/goal/manager_digest/medium_manager_digest.html:13
+#, python-format
+msgid "<strong>1</strong> update from <strong>1</strong> person today:"
+msgid_plural ""
+"<strong>%(update_counter)s</strong> updates from <strong>1</strong> person "
+"today:"
+msgstr[0] "Dnes <strong>1</strong> aktualizace od <strong>1</strong> osoby:"
+msgstr[1] ""
+"Dnes <strong>%(update_counter)s</strong> aktualizace od <strong>1</strong> "
+"osoby:"
+msgstr[2] ""
+"Dnes <strong>%(update_counter)s</strong> aktualizací od <strong>1</strong> "
+"osoby:"
+msgstr[3] ""
+"Dnes <strong>%(update_counter)s</strong> aktualizací od <strong>1</strong> "
+"osoby:"
+
+#: emails/templates/goal/manager_digest/large_manager_digest.html:20
+#: emails/templates/goal/manager_digest/medium_manager_digest.html:19
+#, python-format
+msgid ""
+"<strong>%(updates)s</strong> updates from <strong>%(users_counter)s</strong>"
+" people today:"
+msgstr ""
+"Dnes <strong>%(updates)s</strong> aktualizace/aktualizací od "
+"<strong>%(users_counter)s</strong> osob:"
+
+#: emails/templates/goal/manager_digest/medium_direct_summary.html:15
+#, python-format
+msgid ""
+"%(profile_link)s updated <strong>%(goal_updates)s %(BW_GOAL)s</strong>:"
+msgid_plural ""
+"%(profile_link)s updated <strong>%(goal_updates)s %(BW_GOAL)s</strong>:"
+msgstr[0] ""
+"%(profile_link)s aktualizoval <strong>%(goal_updates)s "
+"cíl</strong>:%(BW_GOAL)s"
+msgstr[1] ""
+"%(profile_link)s aktualizoval <strong>%(goal_updates)s "
+"cíl</strong>:%(BW_GOAL)s"
+msgstr[2] ""
+"%(profile_link)s aktualizoval <strong>%(goal_updates)s "
+"cíl</strong>:%(BW_GOAL)s"
+msgstr[3] ""
+"%(profile_link)s aktualizoval <strong>%(goal_updates)s "
+"cíl</strong>:%(BW_GOAL)s"
+
+#: emails/templates/goal/manager_digest/medium_metric_checkin_summary.html:41
+msgid "Target:"
+msgstr "Úkol:"
+
+#: emails/templates/goal/mention_notification.html:11
+#, python-format
+msgid ""
+"%(user)s mentioned you in <a href=\"%(url)s\" class=\"link-"
+"default\">%(goal)s</a>"
+msgstr ""
+"Uživatel %(user)s vás zmínil v cíli <a href=\"%(url)s\" class=\"link-"
+"default\">%(goal)s</a>."
+
+#: emails/templates/goal/mention_notification.html:23
+#: emails/templates/goal/owned_goal_comment_notification.html:24
+#, python-format
+msgid "Reply to %(user)s"
+msgstr "Odpovědět uživateli %(user)s"
+
+#: emails/templates/goal/milestone_parent_changed.html:12
+#, python-format
+msgid "%(user)s moved your %(BW_MILESTONE)s, %(goal)s, to a new %(BW_GOAL)s"
+msgstr ""
+"Uživatel %(user)s přesunul váš milník, cíl %(goal)s, k novému "
+"cíli.%(BW_MILESTONE)s%(BW_GOAL)s"
+
+#: emails/templates/goal/new_contributor_goal_notification.html:12
+#, python-format
+msgid "%(user)s added you to %(goal)s"
+msgstr "Uživatel %(user)s vás přidal k cíli %(goal)s."
+
+#: emails/templates/goal/new_contributor_notification.html:13
+#, python-format
+msgid "%(user)s added %(goal)s to %(parent_goal)s"
+msgstr ""
+"Uživatel %(user)s přidal cíl %(goal)s k nadřazenému cíli %(parent_goal)s."
+
+#: emails/templates/goal/new_contributor_notification.html:19
+msgid "View Contribution"
+msgstr "Zobrazit přínosy"
+
+#: emails/templates/goal/new_goals_many.html:6
+#, python-format
+msgid ""
+"You're the owner of %(number)s new %(BW_GOALS)s. Would you like to add due "
+"date reminders to your calendar?"
+msgstr ""
+"Jste vlastníkem nových cílů (%(number)s). Chcete do svého  kalendáře přidat "
+"upomínky na termíny dokončení?%(BW_GOALS)s"
+
+#: emails/templates/goal/new_goals_many.html:14
+#, python-format
+msgid ""
+"By clicking below, the following %(BW_GOALS)s will be added to your "
+"calendar."
+msgstr ""
+"Kliknutím níže přidáte následující cíle do svého kalendáře.%(BW_GOALS)s"
+
+#: emails/templates/goal/new_goals_many.html:24
+#, python-format
+msgid "Due Date: <strong>%(due_date)s</strong>"
+msgstr "Termín dokončení: <strong>%(due_date)s</strong>"
+
+#: emails/templates/goal/new_goals_many.html:33
+#, python-format
+msgid "Add all %(BW_CAP_GOALS)s to Calendar"
+msgstr "Přidat všechny cíle do kalendáře%(BW_CAP_GOALS)s"
+
+#: emails/templates/goal/new_goals_single.html:7
+#, python-format
+msgid "%(goal_name)s is due on %(due_date)s"
+msgstr "Termín dokončení pro cíl %(goal_name)s je %(due_date)s."
+
+#: emails/templates/goal/new_goals_single.html:13 slack/messages/status.py:77
+msgid "Add to My Calendar"
+msgstr "Přidat do mého kalendáře"
+
+#: emails/templates/goal/new_participant_notification.html:13
+#, python-format
+msgid ""
+"added you as an %(role_text)s to %(goal_name)s. Now you can contribute, "
+"modify, or delete this %(BW_GOAL)s."
+msgstr ""
+"vás přidal/a k cíli %(goal_name)s (role: %(role_text)s). Nyní se na tomto "
+"cíli můžete podílet, upravovat ho nebo ho smazat.%(BW_GOAL)s"
+
+#: emails/templates/goal/new_participant_notification.html:17
+#, python-format
+msgid ""
+"added you as a %(role_text)s to %(goal_name)s. Now you can comment and "
+"contribute to this %(BW_GOAL)s."
+msgstr ""
+"vás přidal/a k cíli %(goal_name)s (role: %(role_text)s). Nyní můžete k "
+"tomuto cíli přidávat komentáře nebo se na něm podílet.%(BW_GOAL)s"
+
+#: emails/templates/goal/new_related_goal_notification.html:13
+#, python-format
+msgid "%(user)s has linked %(goal_1)s to %(goal_2)s"
+msgstr "Uživatel %(user)s propojil cíl %(goal_1)s s cílem %(goal_2)s."
+
+#: emails/templates/goal/new_related_goal_notification.html:19
+#, python-format
+msgid "View Linked %(BW_CAP_GOAL)s"
+msgstr "Zobrazit propojené cíle%(BW_CAP_GOAL)s"
+
+#: emails/templates/goal/nudge_notification.html:12
+#: slack/messages/action.py:57
+#, python-format
+msgid "%(user)s nudged %(goal)s"
+msgstr "Uživatel %(user)s pošťouchl cíl %(goal)s."
+
+#: emails/templates/goal/parent_alignment_removed_notification.html:12
+#, python-format
+msgid "You still own %(goal1)s, but it no longer contributes to %(goal2)s"
+msgstr "Cíl %(goal1)s stále vlastníte, ale už se nepodílí na cíli %(goal2)s."
+
+#: emails/templates/goal/parent_goal_deleted_notification.html:13
+#, python-format
+msgid ""
+"%(BW_CAP_A_GOAL)s you were contributing to was deleted by %(user)s. You can "
+"keep updating %(goal)s, but it will not update the progress of "
+"%(parent_goal)s."
+msgstr ""
+"Cíl, na kterém jste se podílel/a, byl smazán uživatelem %(user)s. Můžete "
+"stále aktualizovat cíl %(goal)s, ale nebude se tím aktualizovat postup "
+"nadřazeného cíle %(parent_goal)s.%(BW_CAP_A_GOAL)s"
+
+#: emails/templates/goal/request_access_batch.html:27
+#, python-format
+msgid "People are requesting access to %(goal)s"
+msgstr "Lidé žádají o přístup k cíli %(goal)s."
+
+#: emails/templates/goal/score_edited_notification.html:12
+#, python-format
+msgid "%(user)s edited the score on %(goal)s"
+msgstr "Uživatel %(user)s upravil úspěch v cíli %(goal)s."
+
+#: emails/templates/goal/user_request_access_single.html:12
+#, python-format
+msgid "%(user)s is requesting access to %(goal)s"
+msgstr "Uživatel %(user)s žádá o přístup k cíli %(goal)s."
+
+#: emails/templates/goal/user_request_access_single.html:19
+msgid "Grant Access"
+msgstr "Udělit přístup"
+
+#: emails/templates/goal/weekly_digest/direct_report_goals.html:14
+msgid ""
+"Here's what you're working on. Remember to update and track your progress."
+msgstr ""
+"Zde najdete, na čem pracujete. Nezapomeňte aktualizovat a sledovat svůj "
+"postup."
+
+#: emails/templates/goal/weekly_digest/direct_report_goals.html:26
+msgid "What you're working on"
+msgstr "Na čem pracujete"
+
+#: emails/templates/goal/weekly_digest/direct_report_goals.html:29
+#, python-format
+msgid "Log in to Betterworks to set up your %(BW_GOALS)s"
+msgstr ""
+"Přihlaste se do aplikace Betterworks a nastavte si své cíle%(BW_GOALS)s"
+
+#: emails/templates/goal/weekly_digest/direct_report_goals.html:68
+msgid "Your progress"
+msgstr "Váš postup"
+
+#: emails/templates/goal/weekly_digest/direct_reports_teammates.html:14
+msgid ""
+"Here's the latest on your team. Click on their activity to cheer, nudge, or "
+"comment."
+msgstr ""
+"Zde jsou nejnovější údaje o vašem týmu. Klikněte na jejich aktivitu, abyste "
+"ho povzbudili, pošťouchli nebo přidali komentář."
+
+#: emails/templates/goal/weekly_digest/direct_reports_teammates.html:25
+#: emails/templates/goal/weekly_digest/manager_reports_goals.html:8
+msgid "Your team's activity"
+msgstr "Aktivita vašeho týmu"
+
+#: emails/templates/goal/weekly_digest/footer.html:13
+#, python-format
+msgid "View %(BW_CAP_GOALS)s"
+msgstr "Zobrazit cíle%(BW_CAP_GOALS)s"
+
+#: emails/templates/goal/weekly_digest/goals_i_follow.html:15
+#, python-format
+msgid ""
+"These are the %(BW_GOALS)s you're following. Manage the %(BW_GOALS)s you "
+"follow in Betterworks."
+msgstr ""
+"Toto jsou cíle, které sledujete. Spravujte cíle, které sledujete, v aplikaci"
+" Betterworks.%(BW_GOALS)s%(BW_GOALS)s"
+
+#: emails/templates/goal/weekly_digest/goals_i_follow.html:28
+#, python-format
+msgid "%(BW_CAP_GOALS)s you're following"
+msgstr "Cíle, které sledujete%(BW_CAP_GOALS)s"
+
+#: emails/templates/goal/weekly_digest/goals_i_follow.html:58
+#: emails/templates/goal/weekly_digest/goals_i_follow.html:98
+msgid "no updates"
+msgstr "žádné aktualizace"
+
+#: emails/templates/goal/weekly_digest/goals_i_follow.html:60
+#: emails/templates/goal/weekly_digest/goals_i_follow.html:100
+#, python-format
+msgid "1 update"
+msgid_plural "%(updated_amount)s updates"
+msgstr[0] "1 aktualizace"
+msgstr[1] "%(updated_amount)s aktualizace"
+msgstr[2] "%(updated_amount)s aktualizací"
+msgstr[3] "%(updated_amount)s aktualizací"
+
+#: emails/templates/goal/weekly_digest/individual_header.html:23
+#, python-format
+msgid "Hi %(preferred_name)s! This is your first weekly digest."
+msgstr "Dobrý den, %(preferred_name)s. Toto je váš první týdenní přehled."
+
+#: emails/templates/goal/weekly_digest/individual_header.html:28
+msgid "Use it to plan your week."
+msgstr "Použijte ho k naplánovaní svého týdne."
+
+#: emails/templates/goal/weekly_digest/individual_header.html:37
+#, python-format
+msgid "Hi <strong>%(preferred_name)s</strong>, here's your week in review"
+msgstr ""
+"Dobrý den, <strong>%(preferred_name)s</strong>, zde jsou výsledky vašeho "
+"týdne."
+
+#: emails/templates/goal/weekly_digest/individual_header.html:82
+msgid "Your Overall Progress"
+msgstr "Váš celkový postup"
+
+#: emails/templates/goal/weekly_digest/user_row.html:36
+#: emails/templates/goal/weekly_digest/user_row.html:106
+#, python-format
+msgid "%(full_name)s updated"
+msgstr "Jméno %(full_name)s bylo aktualizováno."
+
+#: emails/templates/goal/weekly_digest/user_row.html:51
+#, python-format
+msgctxt "goal_name, %80 completed"
+msgid "%(goal_name)s, %(progress_percent)s%% completed"
+msgstr "Cíl %(goal_name)s je splněn na %(progress_percent)s %%."
+
+#: emails/templates/goal/weekly_digest/user_row.html:62
+#: emails/templates/goal/weekly_digest/user_row.html:129
+#, python-format
+msgid "And %(goals_amount)s more..."
+msgstr "A ještě %(goals_amount)s dalších..."
+
+#: emails/templates/goal/weekly_digest/user_row.html:71
+#: emails/templates/goal/weekly_digest/user_row.html:138
+msgid "No activity"
+msgstr "Žádná aktivita"
+
+#: emails/templates/helpers/footer.html:6
+msgid "The Betterworks app: Better feedback within reach"
+msgstr "Aplikace Betterworks: Lepší zpětná vazba na dosah"
+
+#: emails/templates/helpers/footer.html:33
+#, python-format
+msgid "<a href=\"%(unfollow_goal_link)s\">Unfollow</a> this %(BW_GOAL)s |"
+msgstr ""
+"<a href=\"%(unfollow_goal_link)s\">Přestat sledovat</a> tento cíl "
+"|%(BW_GOAL)s"
+
+#: emails/templates/helpers/footer.html:38
+msgid "Unsubscribe"
+msgstr "Odhlásit se z odběru"
+
+#: emails/templates/helpers/footer.html:39
+#, python-format
+msgid "<a href=\"%(settings_url)s\">Update</a> notification preferences"
+msgstr "<a href=\"%(settings_url)s\">Aktualizovat</a> předvolby oznámení"
+
+#: emails/templates/integration/error.html:10
+msgid ""
+"An integration to Betterworks is currently in an error state. Below is the "
+"impacted integration and the error:"
+msgid_plural ""
+"An integration to Betterworks is currently in an error state. Below is the "
+"impacted integration and the errors:"
+msgstr[0] ""
+"Začlenění do aplikace Betterworks momentálně nefunguje správně. Níže najdete"
+" ovlivněná začlenění a chybu:"
+msgstr[1] ""
+"Začlenění do aplikace Betterworks momentálně nefunguje správně. Níže najdete"
+" ovlivněná začlenění a chyby:"
+msgstr[2] ""
+"Začlenění do aplikace Betterworks momentálně nefunguje správně. Níže najdete"
+" ovlivněná začlenění a chyby:"
+msgstr[3] ""
+"Začlenění do aplikace Betterworks momentálně nefunguje správně. Níže najdete"
+" ovlivněná začlenění a chyby:"
+
+#: emails/templates/integration/error.html:18
+#, python-format
+msgid "Integration: %(error_type)s"
+msgstr "Začlenění: %(error_type)s"
+
+#: emails/templates/integration/error.html:24
+msgid ""
+"Please check the credentials and setup of your integration. If you would "
+"like more details about the error, please contact Betterworks support at "
+"support@betterworks.com."
+msgstr ""
+"Zkontrolujte přihlašovací údaje a nastavení svého začlenění. Chcete-li "
+"získat více informací o chybě, kontaktujte podporu Betterworks na adrese "
+"support@betterworks.com."
+
+#: emails/templates/integration/error_summary_with_link.html:10
+#, python-format
+msgid ""
+"<br>An uploaded file \"%(filename)s\" to Betterworks has been validated and "
+"contains errors. <br>Below is a secure link to the error report, and a brief"
+" summary of the changes. For information on common errors and their "
+"solutions, please see <a href=\"https://support.betterworks.com/hc/en-"
+"us/articles/360018760571\">this article</a>. <br> <br>Integration: "
+"%(source)s <br>Full Report: <a href=\"%(error_summary_link)s\">HERE</a> <br>"
+" <br>Errors: %(errored_count)s <br>Created: %(created_count)s <br>Updated: "
+"%(updated_count)s <br>Reactivated: %(reactivated_count)s <br>Deactivated: "
+"%(deactivated_count)s <br>"
+msgstr ""
+"<br>Soubor „%(filename)s“ nahraný do aplikace Betterworks byl ověřen a bylo "
+"zjištěno, že obsahuje chyby. <br>Níže najdete bezpečný odkaz na protokol "
+"chyb se stručným shrnutím změn. Informace o častých chybách a jejich řešení "
+"najdete v <a href=\"https://support.betterworks.com/hc/en-"
+"us/articles/360018760571\">tomto článku</a>. <br> <br>Integrace: %(source)s "
+"<br>Úplná zpráva: <a href=\"%(error_summary_link)s\">ZDE</a> <br> <br>Chyby:"
+" %(errored_count)s <br>Vytvořeno: %(created_count)s <br>Aktualizováno: "
+"%(updated_count)s <br>Znovu aktivováno: %(reactivated_count)s "
+"<br>Deaktivováno: %(deactivated_count)s <br>"
+
+#: emails/templates/integration/error_summary_with_link.html:26
+#, python-format
+msgid ""
+"<br>Please correct the errors contained in the report. If you would like "
+"more details about the errors, please contact Betterworks support at "
+"support@betterworks.com. <br>ORG ID: %(org_id)s"
+msgstr ""
+"<br>Opravte chyby uvedené v protokolu. Chcete-li získat více informací o "
+"chybách, kontaktujte podporu Betterworks na adrese support@betterworks.com. "
+"<br>ID ORGANIZACE: %(org_id)s"
+
+#: emails/templates/integration/hris_sync_error.html:17
+#, python-format
+msgid ""
+"The %(error_type)s integration to Betterworks is currently in an error "
+"state. Below you will find the error messages received for this integration."
+" Please check the credentials and setup of the integration."
+msgstr ""
+"Integrace pro %(error_type)s do Betterworks je momentálně ve stavu chyby. "
+"Níže naleznete chybová hlášení pro tuto integraci. Zkontrolujte ověřovací "
+"údaje a nastavení integrace."
+
+#: emails/templates/integration/hris_sync_error.html:39
+#, python-format
+msgid ""
+"If you would like more details about the error, please contact Betterworks "
+"support at %(anchor_open_attr)ssupport@betterworks.com.%(anchor_close)s"
+msgstr ""
+"Pokud byste chtěli další podrobnosti o chybě, kontaktujte podporu "
+"Betterworks na adrese "
+"%(anchor_open_attr)ssupport@betterworks.com.%(anchor_close)s"
+
+#: emails/templates/meeting/meeting_series_creation.html:12
+#: emails/templates/meeting/meeting_upcoming_notification.html:12
+#: emails/templates/meeting/meeting_weekly_summary.html:12
+msgid "Hi"
+msgstr "Dobrý den"
+
+#: emails/templates/meeting/meeting_series_creation.html:17
+#, python-format
+msgid "%(name)s just created a recurring %(meeting)s with you in Betterworks"
+msgstr ""
+"%(name)s právě vytvořil/a v Betterworks opakující se schůzku s vámi "
+"%(meeting)s "
+
+#: emails/templates/meeting/meeting_series_creation.html:21
+#, python-format
+msgid "%(name)s just created a %(meeting)s with you in Betterworks"
+msgstr "%(name)s právě vytvořil/a v Betterworks schůzku s vámi %(meeting)s"
+
+#: emails/templates/meeting/meeting_series_creation.html:28
+#, python-format
+msgid ""
+"Collaborate on the %(meeting)s content by adding your own agenda topics."
+msgstr ""
+"Spolupracujte na obsahu schůzky %(meeting)s přidáním vlastních témat agendy."
+
+#: emails/templates/meeting/meeting_series_creation.html:59
+#: emails/templates/meeting/meeting_upcoming_notification.html:72
+msgid "Agenda Topics"
+msgstr "Témata agendy"
+
+#: emails/templates/meeting/meeting_series_creation.html:63
+#: emails/templates/meeting/meeting_upcoming_notification.html:79
+msgid "Action Items"
+msgstr "Akční body"
+
+#: emails/templates/meeting/meeting_series_creation.html:72
+msgid "New"
+msgstr "Nová"
+
+#: emails/templates/meeting/meeting_series_creation.html:95
+msgid ""
+"<p style=\"font-size: 14px; color: #99999D; font-weight: bold;\"> How to "
+"make 1:1s effective: </p> <ul style=\"font-size: 12px; color: #99999D; "
+"padding-left: 10px; line-height:20px; letter-spacing: 0;\"> <li>Make sure "
+"you have added the agenda before the 1:1 itself</li> <li>Schedule regularly "
+"and try to keep it between 30-45 Mins</li> <li>Make notes during the 1:1 "
+"related to topics discussed</li> <li>Conclude the 1:1 with some action items"
+" for both parties</li> </ul>"
+msgstr ""
+"<p style=\"font-size: 14px; color: #99999D; font-weight: bold;\">  Jak "
+"zefektivnit schůzky 1:1: </p> <ul style=\"font-size: 12px; color: #99999D; "
+"padding-left: 10px; line-height:20px; letter-spacing: 0;\"> <li>Pro schůzku "
+"1:1 zadejte agendu</li> <li>Plánujte schůzky pravidelně a snažte se, aby "
+"nepřesáhly 30–45 minut</li> <li>V průběhu schůzky 1:1 si dělejte poznámky o "
+"probíraných tématech</li> <li>Zakončete schůzku 1:1 akčními body pro obě "
+"strany</li> </ul>"
+
+#: emails/templates/meeting/meeting_upcoming_notification.html:19
+#, python-format
+msgid "Collaborate on the %(meeting)s topics by adding your own agenda items"
+msgstr ""
+"Spolupracujte na tématech schůzky %(meeting)s – přidejte vlastní body "
+"programu"
+
+#: emails/templates/meeting/meeting_upcoming_notification.html:90
+msgid "Review your Agenda topics:"
+msgstr "Zkontrolujte témata agendy:"
+
+#: emails/templates/meeting/meeting_upcoming_notification.html:103
+#, python-format
+msgid ""
+"If you don't have anything to discuss, consider cancelling the %(meeting)s"
+msgstr "Pokud nemáte o čem diskutovat, zvažte zrušení schůzky %(meeting)s"
+
+#: emails/templates/meeting/meeting_weekly_summary.html:16
+#, python-format
+msgid ""
+"Here is a summary of your %(meetings)s upcoming %(custom_name)s this week."
+msgstr ""
+"Zde je přehled vašich nadcházejících schůzek %(meetings)s ve %(custom_name)s"
+" v tomto týdnu."
+
+#: emails/templates/meeting/meeting_weekly_summary.html:72
+#, python-format
+msgid ""
+"To see full list of your %(meetings)s, <a href=\"%(active_meetings_url)s\" "
+"style=\"text-decoration:underline;\">click here</a>"
+msgstr ""
+"Chcete-li zobrazit všechny %(meetings)s, <a href=\"%(active_meetings_url)s\""
+" style=\"text-decoration:underline;\">klikněte sem</a>"
+
+#: emails/templates/recognition/base_recognition_notification.html:48
+#, python-format
+msgid "View %(BW_CAP_RECOGNITION)s"
+msgstr "Zobrazit uznání%(BW_CAP_RECOGNITION)s"
+
+#: emails/templates/recognition/recognition_received_manager.html:35
+#, python-format
+msgid "%(author_name)s just recognized %(employee_name)s."
+msgstr ""
+"Uživatel %(author_name)s právě projevil uznání zaměstnanci "
+"%(employee_name)s."
+
+#: emails/templates/recognition/recognition_received_manager.html:56
+#, python-format
+msgid "View %(BW_RECOGNITION)s"
+msgstr "Zobrazit uznání%(BW_RECOGNITION)s"
+
+#: emails/templates/recognition/shoutout.html:11
+#, python-format
+msgid "%(username)s gave you %(BW_A_RECOGNITION)s for your work"
+msgstr ""
+"Uživatel %(username)s vám projevil uznání za vaši práci.%(BW_A_RECOGNITION)s"
+
+#: emails/templates/trial/base_trial_email.html:79
+msgid "You received this email because you signed up for a Betterworks Trial."
+msgstr ""
+"Tento e-mail jste obdrželi, protože jste přihlášeni ke zkušební verzi "
+"aplikace Betterworks."
+
+#: emails/templates/trial/invited_email.html:6
+#, python-format
+msgid "<strong>%(name)s</strong> has invited you to try Betterworks."
+msgstr ""
+"<strong>%(name)s</strong> vás pozval/a, abyste vyzkoušel/a aplikaci "
+"Betterworks."
+
+#: emails/templates/trial/invited_email.html:10
+msgid "Betterworks is the easiest way to set and manage your company's goals."
+msgstr ""
+"Aplikace Betterworks je nejsnadnější způsob, jak nastavit a spravovat cíle "
+"vaší společnosti."
+
+#: emails/templates/trial/invited_email.html:11
+msgid "Click below to get started."
+msgstr "Kliknutím níže začnete."
+
+#: emails/templates/trial/invited_email.html:15
+msgid "Join Trial"
+msgstr "Připojit se ke zkušební verzi"
+
+#: emails/templates/trial/reject_email.html:6
+msgid ""
+"Hi there, looks like your organization is already exploring Betterworks. "
+"Want to set up another trial, or add more users to an existing one? Just "
+"click below."
+msgstr ""
+"Dobrý den, vypadá to, že vaše organizace už aplikaci Betterworks "
+"prozkoumává. Chcete zřídit další zkušební verzi, nebo přidat více uživatelů "
+"do již existující? Stačí kliknout níže."
+
+#: emails/templates/trial/reject_email.html:13
+msgid "Email Us"
+msgstr "Napište nám"
+
+#: emails/templates/trial/verify_email.html:6
+#, python-format
+msgid "Hi <strong>%(first_name)s</strong>,"
+msgstr "Dobrý den, <strong>%(first_name)s</strong>,"
+
+#: emails/templates/trial/verify_email.html:9
+msgid ""
+"click below to verify your email and start a 14-day trial with Betterworks."
+msgstr ""
+"kliknutím níže ověříte svůj e-mail a zahájíte 14denní zkušební verzi "
+"aplikace Betterworks."
+
+#: emails/templates/trial/verify_email.html:14
+msgid "It just takes one click."
+msgstr "Stačí jedno kliknutí."
+
+#: emails/templates/trial/verify_email.html:18
+msgid "Verify"
+msgstr "Ověřit"
+
+#: emails/templates/trial/verify_email.html:20
+msgid "This link expires in a week"
+msgstr "Tento odkaz za týden vyprší."
+
+#: emails/templates/user/admin_privileges.html:17
+msgid "Betterworks"
+msgstr "Betterworks"
+
+#: emails/templates/user/admin_privileges.html:21
+#, python-format
+msgid "%(user_name)s has updated your administrative privileges"
+msgstr "Uživatel %(user_name)s aktualizoval vaše práva správce."
+
+#: emails/templates/user/admin_privileges.html:25
+#, python-format
+msgid "%(user_name)s has removed your administrative privileges"
+msgstr "Uživatel %(user_name)s vám odebral práva správce."
+
+#: emails/templates/user/admin_privileges.html:44
+#: slack/messages/admin_privileges.py:31
+msgid "View Admin Page"
+msgstr "Zobrazit stránku správce"
+
+#: emails/templates/user/goals_lite_email.html:8
+#: emails/templates/user/goals_pro_email.html:8
+#, python-format
+msgid "Hi %(preferred_name)s"
+msgstr "Dobrý den, %(preferred_name)s,"
+
+#: emails/templates/user/goals_lite_email.html:12
+#: emails/views/useremails/goalmode_changed.py:21
+msgid "Welcome to Goals Lite!"
+msgstr "vítejte v aplikaci Goals Lite!"
+
+#: emails/templates/user/goals_lite_email.html:13
+msgid "Your Betterworks experience just got a lot simpler."
+msgstr "Vaše používání aplikace Betterworks se právě o dost zjednodušilo."
+
+#: emails/templates/user/goals_lite_email.html:18
+#: emails/templates/user/goals_lite_email.html:91
+msgid "Explore Goals Lite"
+msgstr "Prozkoumat aplikaci Goals Lite"
+
+#: emails/templates/user/goals_lite_email.html:31
+#, python-format
+msgid "%(BW_CAP_FEEDBACKS)s and %(BW_CAP_RECOGNITIONS)s from teammates"
+msgstr ""
+"Zpětné vazby a uznání od členů "
+"týmu%(BW_CAP_FEEDBACKS)s%(BW_CAP_RECOGNITIONS)s"
+
+#: emails/templates/user/goals_lite_email.html:36
+#, python-format
+msgid ""
+"Goals Lite makes it easy for your teammates to recognize you <!-- "
+"IGNORE_WORD --> for your accomplishments, and to give %(BW_FEEDBACKS)s that "
+"you can actually use."
+msgstr ""
+"Aplikace Goals Lite vašim kolegům z týmu usnadňuje způsob, jak vám projevit "
+"uznání <!-- IGNORE_WORD --> za to, čeho jste dosáhli, a jak poskytnout "
+"užitečnou zpětnou vazbu.%(BW_FEEDBACKS)s"
+
+#: emails/templates/user/goals_lite_email.html:53
+#, python-format
+msgid "Authentic %(BW_CONVERSATIONS)s with your manager"
+msgstr "Opravdové konverzace s vaším vedoucím%(BW_CONVERSATIONS)s"
+
+#: emails/templates/user/goals_lite_email.html:58
+#, python-format
+msgid ""
+"The Betterworks %(BW_CONVERSATION)s helps cut the time you spend preparing "
+"for %(BW_CONVERSATIONS)s, and brings your awesome accomplishments right to "
+"the %(BW_CONVERSATION)s itself."
+msgstr ""
+"Konverzace v aplikaci Betterworks pomáhají zkrátit dobu přípravy na ně a "
+"přináší vaše úspěchy přímo do samotné "
+"konverzace.%(BW_CONVERSATION)s%(BW_CONVERSATIONS)s%(BW_CONVERSATION)s"
+
+#: emails/templates/user/goals_lite_email.html:75
+#, python-format
+msgid "Clear expectations and %(BW_GOALS)s"
+msgstr "Jasná očekávání a cíle%(BW_GOALS)s"
+
+#: emails/templates/user/goals_lite_email.html:80
+#, python-format
+msgid ""
+"With Goals Lite, setting %(BW_GOALS)s is incredibly easy. <!-- IGNORE_WORD "
+"--> Now, you can be sure that expectations between you and your manager are "
+"crystal clear."
+msgstr ""
+"S aplikací Goals Lite je nastavení cílů neuvěřitelně snadné. <!-- "
+"IGNORE_WORD --> Nyní si můžete být jistí, že očekávání vás i vašeho "
+"vedoucího jsou nad slunce jasná.%(BW_GOALS)s"
+
+#: emails/templates/user/goals_pro_email.html:12
+#: emails/views/useremails/goalmode_changed.py:24
+msgid "Congratulations, you're now using Goals Pro!"
+msgstr "Gratulujeme, nyní používáte verzi Goals Pro!"
+
+#: emails/templates/user/goals_pro_email.html:13
+#, python-format
+msgid "The Pro experience helps you set and achieve awesome %(BW_GOALS)s."
+msgstr ""
+"Profi funkce vám umožní nastavit a dosáhnout úžasných cílů.%(BW_GOALS)s"
+
+#: emails/templates/user/goals_pro_email.html:20
+#: emails/templates/user/goals_pro_email.html:87
+msgid "Explore Goals Pro"
+msgstr "Prozkoumat aplikaci Goals Pro"
+
+#: emails/templates/user/goals_pro_email.html:33
+#, python-format
+msgid "Connect your %(BW_GOALS)s to others"
+msgstr "Připojte své cíle k dalším%(BW_GOALS)s"
+
+#: emails/templates/user/goals_pro_email.html:38
+#, python-format
+msgid ""
+"Goals Pro makes it easy to connect your organization's work together. <!-- "
+"IGNORE_WORD --> Once connected, progress can cascade from %(BW_GOAL)s to "
+"%(BW_GOAL)s, giving you an accurate picture of how work is actually getting "
+"done."
+msgstr ""
+"Aplikace Goals Pro umožňuje snadno propojit práci vaší organizace. <!-- "
+"IGNORE_WORD --> Jakmile jsou cíle propojeny, postup se může přelévat z cíle "
+"do cíle, a dát vám tak přesnou představu, jak práce ve skutečnosti "
+"probíhá.%(BW_GOAL)s%(BW_GOAL)s"
+
+#: emails/templates/user/goals_pro_email.html:55
+msgid "Measure progress in real-time"
+msgstr "Měřte postup v reálném čase"
+
+#: emails/templates/user/goals_pro_email.html:57
+msgid ""
+"With Goals Pro, you can customize how your progress is measured. <!-- "
+"IGNORE_WORD --> Additionally, you can access real-time progress integrations"
+" like JIRA or Salesforce."
+msgstr ""
+"S aplikací Goals Pro si můžete sami upravit, jak se váš postup bude měřit. "
+"<!-- IGNORE_WORD --> Aplikaci také můžete propojit se službami Jira nebo "
+"Salesforce, abyste získávali informace o postupu v reálném čase."
+
+#: emails/templates/user/goals_pro_email.html:62
+msgid "Note: your organization's program team may not have these enabled."
+msgstr "Poznámka: programový tým vaší organizace je nemusí mít povoleny."
+
+#: emails/templates/user/goals_pro_email.html:74
+msgid "Visualize your achievements"
+msgstr "Vizualizujte své úspěchy"
+
+#: emails/templates/user/goals_pro_email.html:76
+#, python-format
+msgid ""
+"Betterworks dashboards put unique data at your fingertips. Explore anything "
+"from which %(BW_GOALS)s are most popular within your department to which "
+"projects may be at risk."
+msgstr ""
+"Nástěnky v aplikaci Betterworks vám zobrazují jedinečné údaje jako na dlani."
+" Prozkoumejte cokoli od popularity jednotlivých cílů ve vašem oddělení až po"
+" ohrožení některých projektů.%(BW_GOALS)s"
+
+#: emails/templates/user/user_deactivated.html:11
+#, python-format
+msgid "%(user_name)s has been removed from the system"
+msgstr "Uživatel %(user_name)s byl odstraněn ze systému."
+
+#: emails/templates/user/user_deactivated.html:19
+msgid "View Profile"
+msgstr "Zobrazit profil"
+
+#: emails/templatetags/email_weekly.py:33
+msgid "User Goal"
+msgstr "Cíle uživatele"
+
+#: emails/templatetags/email_weekly.py:47
+msgid "Team Progress"
+msgstr "Postup týmu"
+
+#: emails/templatetags/email_weekly.py:59
+msgid "Team Goal Progress"
+msgstr "Postup cíle týmu"
+
+#: emails/views/complianceemails/finalcheckin.py:18
+msgid "It's time for your final updates"
+msgstr "Je čas na vaši konečnou aktualizaci."
+
+#: emails/views/complianceemails/goalcreatesoon.py:30
+#, python-format
+msgid "Reminder: Finalize your %(BW_GOALS)s by %(due_date)s"
+msgstr "Upomínka: Dokončete své cíle do %(due_date)s%(BW_GOALS)s"
+
+#: emails/views/complianceemails/goalcreatetoday.py:18
+#, python-format
+msgid "Reminder: create your Betterworks %(BW_GOALS)s today"
+msgstr "Upomínka: vytvořte dnes své cíle v aplikaci Betterworks%(BW_GOALS)s"
+
+#: emails/views/complianceemails/goaloverdue.py:18
+#, python-format
+msgid "Please create your %(BW_GOALS)s in Betterworks"
+msgstr "Vytvořte své cíle v aplikaci Betterworks%(BW_GOALS)s"
+
+#: emails/views/complianceemails/goaloverdue.py:21
+msgid "Please create your Objectives"
+msgstr "Vytvořte prosím cíle."
+
+#: emails/views/complianceemails/goaloverduemanager.py:22
+#, python-format
+msgid "Your team still needs to create Betterworks %(BW_GOALS)s"
+msgstr "Váš tým stále musí vytvořit cíle v aplikaci Betterworks%(BW_GOALS)s"
+
+#: emails/views/complianceemails/goaloverduemanager.py:26
+msgid "Your team still needs to create Objectives"
+msgstr "Váš tým stále musí vytvořit cíle."
+
+#: emails/views/complianceemails/goalreminder.py:34
+#, python-format
+msgid "Reminder: Create your %(BW_GOALS)s in Betterworks"
+msgstr "Upomínka: Vytvořte své cíle v aplikaci Betterworks%(BW_GOALS)s"
+
+#: emails/views/complianceemails/goalreminder.py:37
+#, python-format
+msgid "Looks like you haven't set any %(BW_GOALS)s yet."
+msgstr "Zdá se, že jste zatím nenastavili žádné cíle.%(BW_GOALS)s"
+
+#: emails/views/complianceemails/goalreminder.py:38
+#, python-format
+msgid "Just a friendly reminder that they are due on %(date)s."
+msgstr "Přátelské připomenutí, že termín dokončení je %(date)s."
+
+#: emails/views/complianceemails/midperiodcheckin.py:22
+#, python-format
+msgid "You haven't updated these %(BW_GOALS)s recently"
+msgstr "Tyto cíle jste v nedávné době neaktualizovali.%(BW_GOALS)s"
+
+#: emails/views/complianceemails/midperiodcheckin.py:27
+#, python-format
+msgid "You haven't updated this %(BW_GOAL)s recently"
+msgstr "Tento cíl jste v nedávné době neaktualizovali.%(BW_GOAL)s"
+
+#: emails/views/conversationemails/contributorinvited.py:20
+#, python-format
+msgid ""
+"You've been invited as an additional contributor to %(conversation_name)s"
+msgstr ""
+"Byli jste pozváni do konverzace s názvem %(conversation_name)s jako "
+"dodatečný přispěvatel."
+
+#: emails/views/conversationemails/created.py:20
+#, python-format
+msgid "%(user_name)s has started a %(BW_CONVERSATION)s with you"
+msgstr "Uživatel %(user_name)s s vámi zahájil konverzaci.%(BW_CONVERSATION)s"
+
+#: emails/views/conversationemails/deploy.py:23
+#, python-format
+msgid "%(BW_CONVERSATION)s deploying on %(date)s"
+msgstr "Konverzace bude zahájena %(date)s.%(BW_CONVERSATION)s"
+
+#: emails/views/conversationemails/disable.py:21
+#, python-format
+msgid "A %(BW_CONVERSATION)s has been cancelled"
+msgstr "Konverzace byla zrušena.%(BW_CONVERSATION)s"
+
+#: emails/views/conversationemails/due.py:18
+#, python-format
+msgid "%(conversation_name)s final responses are due today!"
+msgstr ""
+"Termín dokončení konečných odpovědí v konverzaci %(conversation_name)s je "
+"dnes!"
+
+#: emails/views/conversationemails/edited.py:20
+#, python-format
+msgid ""
+"Your answers to %(conversation_name)s with %(direct_name)s were changed."
+msgstr ""
+"Vaše odpovědi v konverzaci s názvem %(conversation_name)s s přímým "
+"podřízeným %(direct_name)s se změnily."
+
+#: emails/views/conversationemails/editrequests.py:23
+#, python-format
+msgid "You've received a request to edit %(BW_CONVERSATION)s"
+msgid_plural "You've received requests to edit %(BW_CONVERSATION)s"
+msgstr[0] "Obdrželi jste žádost o úpravu konverzace.%(BW_CONVERSATION)s"
+msgstr[1] "Obdrželi jste žádosti o úpravu konverzace.%(BW_CONVERSATION)s"
+msgstr[2] "Obdrželi jste žádosti o úpravu konverzace.%(BW_CONVERSATION)s"
+msgstr[3] "Obdrželi jste žádosti o úpravu konverzace.%(BW_CONVERSATION)s"
+
+#: emails/views/conversationemails/editrequests.py:40
+#: emails/views/feedbackemails/editrequests.py:40
+msgid "Unspecified"
+msgstr "Nespecifikováno"
+
+#: emails/views/conversationemails/midcycle.py:20
+#, python-format
+msgid "%(conversation_name)s is due in %(days)d days"
+msgstr ""
+"Počet dní do termínu dokončení konverzace %(conversation_name)s: %(days)d"
+
+#: emails/views/conversationemails/overdue.py:19
+#, python-format
+msgid "%(conversation_name)s is overdue!"
+msgstr "Konverzace %(conversation_name)s má po termínu!"
+
+#: emails/views/conversationemails/postdue.py:19
+#, python-format
+msgid ""
+"Have you answered the additional questions for %(conversation_name)s yet?"
+msgstr ""
+"Už jste odpověděli na dodatečné otázky v konverzaci %(conversation_name)s?"
+
+#: emails/views/conversationemails/poststart.py:19
+#, python-format
+msgid "Additional questions are now available for %(conversation_name)s"
+msgstr ""
+"Pro konverzaci %(conversation_name)s jsou nyní k dispozici dodatečné otázky"
+
+#: emails/views/conversationemails/reminder.py:45
+#, python-format
+msgid "Reminder: complete your %(conversation_name)s responses"
+msgstr "Upomínka: dokončete své odpovědi v konverzaci %(conversation_name)s"
+
+#: emails/views/conversationemails/reminder.py:53
+#, python-format
+msgid ""
+"Looks like you still need to share responses for "
+"<strong>%(conversation_name)s</strong>.The due date is "
+"<strong>%(due_date)s</strong>. Please visit the %(BW_CONVERSATION)s portal "
+"and remember to share the %(BW_CONVERSATION)s when you're done.You still "
+"need to complete this %(BW_CONVERSATION)s with these people: "
+"<strong>%(participants_list)s</strong>"
+msgstr ""
+"Zdá se, že jste stále nesdíleli odpovědi v konverzaci "
+"<strong>%(conversation_name)s</strong>. Termín dokončení je "
+"<strong>%(due_date)s</strong>. Navštivte portál "
+"konverzace%(BW_CONVERSATION)s a nezapomeňte konverzaci%(BW_CONVERSATION)s "
+"sdílet, až budete hotoví. Stále musíte dokončit "
+"konverzaci%(BW_CONVERSATION)s s těmito lidmi: "
+"<strong>%(participants_list)s</strong>"
+
+#: emails/views/conversationemails/share.py:25
+#, python-format
+msgid "%(name)s shared their %(conversation_name)s responses with you"
+msgstr ""
+"Uživatel %(name)s s vámi sdílel odpovědi v konverzaci %(conversation_name)s."
+
+#: emails/views/conversationemails/share.py:32
+#, python-format
+msgid ""
+"Your manager's responses for %(conversation_name)s have been shared with you"
+msgstr ""
+"Byly s vámi sdíleny odpovědi vašeho vedoucího v konverzaci "
+"%(conversation_name)s"
+
+#: emails/views/conversationemails/sharecontributor.py:21
+#, python-format
+msgid "%(name)s shared their responses for %(conversation_name)s to you"
+msgstr ""
+"Uživatel %(name)s s vámi sdílel své odpovědi v konverzaci s názvem "
+"%(conversation_name)s."
+
+#: emails/views/conversationemails/sharethirdparty.py:21
+#, python-format
+msgid "Your %(conversation_name)s with %(name)s was shared."
+msgstr ""
+"Vaše konverzace %(conversation_name)s s uživatelem %(name)s byla sdílena."
+
+#: emails/views/conversationemails/start.py:20
+#, python-format
+msgid "%(conversation_name)s is about to begin"
+msgstr "Konverzace %(conversation_name)s brzy začne."
+
+#: emails/views/conversationemails/submitend.py:20
+#, python-format
+msgid "%(conversation_name)s responses are due soon!"
+msgstr "Termín pro odpovědi na konverzaci %(conversation_name)s se blíží!"
+
+#: emails/views/conversationemails/takeownership.py:21
+#: emails/views/conversationemails/takeownership.py:40
+#, python-format
+msgid "Take ownership of %(BW_CONVERSATION)s"
+msgstr "Převzít vlastnictví této konverzace%(BW_CONVERSATION)s"
+
+#: emails/views/conversationemails/unlocked.py:28
+#, python-format
+msgid "You've been granted permission to edit %(conversation_name)s responses"
+msgstr ""
+"Dostali jste povolení upravovat odpovědi v konverzaci %(conversation_name)s."
+
+#: emails/views/feedbackemails/declined.py:26
+#, python-format
+msgid "%(provider_name)s has declined your %(FEEDBACK)s request"
+msgstr "%(provider_name)s odmítl/a vaši žádost zpětnou vazbu%(FEEDBACK)s"
+
+#: emails/views/feedbackemails/deployment.py:23
+#, python-format
+msgid "%(BW_CAP_FEEDBACK)s cycle deploying on %(date)s"
+msgstr "Cyklus zpětných vazeb bude zahájen %(date)s.%(BW_CAP_FEEDBACK)s"
+
+#: emails/views/feedbackemails/editrequests.py:23
+#, python-format
+msgid "You've received a request to edit %(BW_FEEDBACK)s"
+msgid_plural "You've received requests to edit %(BW_FEEDBACK)s"
+msgstr[0] "Obdrželi jste žádosti o úpravu konverzace%(BW_FEEDBACK)s"
+msgstr[1] "Obdrželi jste žádosti o úpravu konverzací%(BW_FEEDBACK)s"
+msgstr[2] "Obdrželi jste žádosti o úpravu konverzace%(BW_FEEDBACK)s"
+msgstr[3] "Obdrželi jste žádosti o úpravu konverzací%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/feedbackeditedafterrequesttoedit.py:22
+#: emails/views/feedbackemails/feedbackeditedafterrequesttoedit.py:49
+#, python-format
+msgid "%(BW_CAP_FEEDBACK)s has been updated"
+msgstr ""
+
+#: emails/views/feedbackemails/received.py:18
+#, python-format
+msgid "You've received %(BW_FEEDBACK)s"
+msgstr "Obdrželi jste zpětnou vazbu.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/received.py:37
+#, python-format
+msgid "%(name)s received %(BW_FEEDBACK)s"
+msgstr "Uživatel %(name)s obdržel zpětnou vazbu.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/received.py:57
+#, python-format
+msgid "Your direct reports received %(BW_FEEDBACK)s"
+msgstr "Vaši přímí podřízení obdrželi zpětnou vazbu.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/received.py:75
+#, python-format
+msgid "You have received %(BW_FEEDBACK)s requested by your manager"
+msgstr ""
+"Obdrželi jste zpětnou vazbu, o kterou požádal váš vedoucí%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/received.py:94
+#, python-format
+msgid ""
+"You have received %(BW_FEEDBACK)s you requested for your direct reports"
+msgstr ""
+"Obdrželi jste zpětnou vazbu týkající se vašich přímých podřízených, o kterou"
+" jste požádali%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/reminder.py:21
+#: emails/views/feedbackemails/reminder.py:43
+#, python-format
+msgid "People are waiting for your %(BW_FEEDBACK)s"
+msgstr "Lidé čekají na vaši zpětnou vazbu.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/requested.py:23
+#: slack/messages/feedback/requested.py:20
+#, python-format
+msgid "People want your %(BW_FEEDBACK)s"
+msgstr "Lidé chtějí vaši zpětnou vazbu.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/requested.py:56
+#, python-format
+msgid "%(name)s wants your %(BW_FEEDBACK)s"
+msgstr "Uživatel %(name)s chce vaši zpětnou vazbu.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/requested.py:92
+#, python-format
+msgid "A manager wants your %(BW_FEEDBACK)s about a colleague"
+msgstr "Vedoucí chce vaši zpětnou vazbu týkající se kolegy%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/requestedited.py:21
+#, python-format
+msgid "Your manager made some %(BW_FEEDBACK)s changes"
+msgstr "Váš vedoucí udělal nějaké změny ve zpětné vazbě.%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/start.py:21
+#, python-format
+msgid "%(BW_CAP_FEEDBACK)s for your direct reports"
+msgstr "Zpětná vazba pro vaše přímé podřízené%(BW_CAP_FEEDBACK)s"
+
+#: emails/views/feedbackemails/start.py:45
+#, python-format
+msgid "It's time to request %(BW_FEEDBACK)s"
+msgstr "Je čas požádat o zpětnou vazbu%(BW_FEEDBACK)s"
+
+#: emails/views/feedbackemails/unlocked.py:21
+#, python-format
+msgid "You've been granted permission to edit %(feedback_name)s responses"
+msgstr "Máte povoleno upravit odpovědi ve zpětné vazbě %(feedback_name)s"
+
+#: emails/views/goalemails/action.py:21
+#, python-format
+msgid "%(name)s, you've been cheered!"
+msgstr "%(name)s, někdo vás povzbudil!"
+
+#: emails/views/goalemails/action.py:43
+#, python-format
+msgid "%(name)s, you've been nudged!"
+msgstr "%(name)s, někdo vás pošťouchl!"
+
+#: emails/views/goalemails/assess.py:22
+#, python-format
+msgid "%(name)s assessed a contribution"
+msgstr "Uživatel %(name)s zhodnotil přínos."
+
+#: emails/views/goalemails/batch.py:22
+#, python-format
+msgid "%(name)s has updates relevant to you"
+msgstr "Uživatel %(name)s má novinky, které jsou pro vás důležité."
+
+#: emails/views/goalemails/change.py:24
+#, python-format
+msgid "%(name)s deleted %(BW_A_GOAL)s"
+msgstr "Uživatel %(name)s smazal cíl.%(BW_A_GOAL)s"
+
+#: emails/views/goalemails/change.py:50
+#, python-format
+msgid "%(name)s reassigned %(assigned_history)s"
+msgstr "Uživatel %(name)s přidělil historii cíle %(assigned_history)s."
+
+#: emails/views/goalemails/change.py:76
+#, python-format
+msgid "%(name)s deleted %(history)s"
+msgstr "Uživatel %(name)s smazal historii %(history)s."
+
+#: emails/views/goalemails/change.py:108
+#, python-format
+msgid "%(caused_by_name)s edited %(goal_name)s"
+msgstr "%(caused_by_name)s upravil cíl %(goal_name)s."
+
+#: emails/views/goalemails/checkin.py:41
+#, python-format
+msgid "%(name)s has made progress on %(BW_GOAL)s you're following"
+msgstr "Uživatel %(name)s postoupil v cíli, který sledujete.%(BW_GOAL)s"
+
+#: emails/views/goalemails/comment.py:23
+#, python-format
+msgid "%(name)s commented on %(BW_A_MILESTONE)s"
+msgstr "Uživatel %(name)s okomentoval milník.%(BW_A_MILESTONE)s"
+
+#: emails/views/goalemails/comment.py:28
+#, python-format
+msgid "%(name)s commented on %(BW_GOAL)s"
+msgstr "Uživatel %(name)s okomentoval cíl.%(BW_GOAL)s"
+
+#: emails/views/goalemails/comment.py:57
+#, python-format
+msgid "%(name)s also commented on %(BW_GOAL)s you follow"
+msgstr "Uživatel %(name)s také okomentoval cíl, který sledujete.%(BW_GOAL)s"
+
+#: emails/views/goalemails/complete.py:23
+#, python-format
+msgid "%(user_name)s completed %(goal_name)s"
+msgstr "Uživatel %(user_name)s dokončil cíl %(goal_name)s."
+
+#: emails/views/goalemails/contributor.py:21
+#, python-format
+msgid "%(user_name)s added a contribution"
+msgstr "Uživatel %(user_name)s přidal přínos."
+
+#: emails/views/goalemails/contributor.py:46
+#, python-format
+msgid "%(user_name)s, you've been added as a contributor to %(BW_GOAL)s"
+msgstr ""
+"%(user_name)s, byl/a jste přidán/a jako přispěvatel k cíli.%(BW_GOAL)s"
+
+#: emails/views/goalemails/contributor.py:79
+#, python-format
+msgid "%(user_name)s removed %(BW_A_MILESTONE)s"
+msgstr "Uživatel %(user_name)s odstranil milník.%(BW_A_MILESTONE)s"
+
+#: emails/views/goalemails/follower.py:20
+#, python-format
+msgid "You're following a new %(BW_GOAL)s"
+msgstr "Sledujete nový cíl.%(BW_GOAL)s"
+
+#: emails/views/goalemails/integration.py:31
+#, python-format
+msgid ""
+"%(BW_CAP_A_MILESTONE)s linked to %(integration_type)s is no longer updating"
+msgstr ""
+"Milník propojený s typem začlenění %(integration_type)s se již "
+"neaktualizuje.%(BW_CAP_A_MILESTONE)s"
+
+#: emails/views/goalemails/manager_digest.py:35
+#: emails/views/goalemails/manager_digest.py:128
+#, python-format
+msgid "%(user_name)s, See Your Team's Progress"
+msgstr "%(user_name)s, podívejte se na postup vašeho týmu."
+
+#: emails/views/goalemails/mention.py:23
+#, python-format
+msgid "%(user_name)s, you've been mentioned in a comment"
+msgstr "%(user_name)s, byl/a jste zmíněn/a v komentáři."
+
+#: emails/views/goalemails/mention.py:69 slack/messages/mention.py:68
+#, python-format
+msgid "%(user_name)s mentioned you in an assessment on %(BW_GOAL)s"
+msgstr "Uživatel %(user_name)s vás zmínil v hodnocení cíle.%(BW_GOAL)s"
+
+#: emails/views/goalemails/new_participant.py:25
+#, python-format
+msgid "%(user_name)s added you as an editor"
+msgstr "Uživatel %(user_name)s vás přidal jako upravující osobu."
+
+#: emails/views/goalemails/new_participant.py:26
+msgid "editor"
+msgstr "upravující osoba"
+
+#: emails/views/goalemails/new_participant.py:29
+#, python-format
+msgid "%(user_name)s added you as an owner"
+msgstr "Uživatel %(user_name)s vás přidal jako vlastníka."
+
+#: emails/views/goalemails/new_participant.py:30
+msgid "owner"
+msgstr "vlastník"
+
+#: emails/views/goalemails/new_participant.py:33
+#, python-format
+msgid "%(user_name)s added you as a participant"
+msgstr "Uživatel %(user_name)s vás přidal jako účastníka."
+
+#: emails/views/goalemails/new_participant.py:34
+msgid "participant"
+msgstr "účastník"
+
+#: emails/views/goalemails/parent_changes.py:22
+#, python-format
+msgid "%(user_name1)s has removed %(user_name2)s from %(goal)s"
+msgstr ""
+"Uživatel %(user_name1)s odstranil uživatele %(user_name2)s z cíle %(goal)s."
+
+#: emails/views/goalemails/parent_changes.py:51
+#: slack/messages/contributor.py:95
+#, python-format
+msgid "%(user_name)s deleted %(goal_name)s"
+msgstr "Uživatel %(user_name)s odstranil cíl %(goal_name)s."
+
+#: emails/views/goalemails/parent_changes.py:78
+#, python-format
+msgid "%(user_name)s moved your %(BW_MILESTONE)s"
+msgstr "Uživatel %(user_name)s přesunul váš milník.%(BW_MILESTONE)s"
+
+#: emails/views/goalemails/plan.py:22
+#, python-format
+msgid "Your %(BW_GOAL)s is now part of a plan"
+msgstr "Váš cíl je nyní částí plánu.%(BW_GOAL)s"
+
+#: emails/views/goalemails/related.py:23
+#, python-format
+msgid "%(user_name)s linked two %(BW_GOALS)s"
+msgstr "Uživatel %(user_name)s propojil dva cíle.%(BW_GOALS)s"
+
+#: emails/views/goalemails/requestaccess.py:23
+#: emails/views/goalemails/requestaccess.py:54
+#, python-format
+msgid "%(user_name)s is requesting access to %(BW_GOAL)s"
+msgstr "Uživatel %(user_name)s žádá o přístup k cíli.%(BW_GOAL)s"
+
+#: emails/views/goalemails/requestaccess.py:82
+#, python-format
+msgid "People are requesting access to %(BW_GOAL)s"
+msgstr "Lidé žádají o přístup k cíli.%(BW_GOAL)s"
+
+#: emails/views/goalemails/score_edited.py:21
+#, python-format
+msgid "%(user_name)s edited a score"
+msgstr "Uživatel %(user_name)s upravil úspěch."
+
+#: emails/views/goalemails/status.py:25
+#, python-format
+msgid "%(name)s was due on %(end_date)s"
+msgstr "Termín dokončení %(name)s byl %(end_date)s."
+
+#: emails/views/goalemails/status.py:31
+msgid "Please make final updates to your Objectives"
+msgstr "Proveďte poslední úpravy svých cílů."
+
+#: emails/views/goalemails/status.py:67 slack/messages/status.py:64
+#, python-format
+msgid "Would you like to add %(goal_name)s to your calendar?"
+msgstr "Chtěl/a byste přidat cíl %(goal_name)s do svého kalendáře?"
+
+#: emails/views/goalemails/status.py:75
+#, python-format
+msgid "Add %(number)d new %(BW_GOALS)s to your calendar"
+msgstr "Přidat nové cíle (%(number)d) do vašeho kalendáře%(BW_GOALS)s"
+
+#: emails/views/goalemails/weekly_digest.py:244
+msgid "Your Team's Week in Review"
+msgstr "Výsledky týdne vašeho týmu"
+
+#: emails/views/goalemails/weekly_digest.py:246
+msgid "Your Week in Review"
+msgstr "Výsledky vašeho týdne"
+
+#: emails/views/impersonationemails/impersonation_email.py:28
+msgid "Some changes were made in your name - please confirm"
+msgstr "Vaším jménem byly provedeny některé změny - potvrďte je"
+
+#: emails/views/meetingemails/seriescreation.py:18
+#, python-format
+msgid "New %(custom_word)s with %(preferred_name)s"
+msgstr "Nová %(custom_word)s s %(preferred_name)s"
+
+#: emails/views/meetingemails/upcomingmeeting.py:44
+msgid "someone"
+msgstr "někdo"
+
+#: emails/views/meetingemails/upcomingmeeting.py:47
+#, python-format
+msgid "1-1 meeting with %(peername)s in %(time_remaining_str)s"
+msgstr "Schůzka 1-1 s %(peername)s, čas do schůzky %(time_remaining_str)s"
+
+#: emails/views/meetingemails/upcomingmeeting.py:126
+msgid "PREPARE MEETING CONTENT"
+msgstr "PŘIPRAVIT OBSAH SCHŮZKY"
+
+#: emails/views/meetingemails/upcomingmeeting.py:127
+msgid "ADD MORE AGENDA TOPICS"
+msgstr "PŘIDAT DALŠÍ TÉMATA AGENDY"
+
+#: emails/views/meetingemails/upcomingmeeting.py:134
+#, python-format
+msgid ""
+"You have an upcoming %(custom_word)s meeting with %(peername)s in "
+"%(time_remaining_str)s."
+msgstr ""
+"Máte naplánovanou %(custom_word)s schůzku s %(peername)s, čas do schůzky "
+"%(time_remaining_str)s."
+
+#: emails/views/meetingemails/weeklysummary.py:40
+#, python-format
+msgid "Summary of your %(custom_word)s this week"
+msgstr "Shrnutí vašich schůzek %(custom_word)s tento týden"
+
+#: emails/views/meetingemails/weeklysummary.py:100
+#: slack/messages/feedback/received.py:25 slack/messages/shoutout.py:30
+#: slack/messages/status.py:39
+msgid "View"
+msgstr "Zobrazit"
+
+#: emails/views/meetingemails/weeklysummary.py:106
+msgid "No Agenda Topics"
+msgstr "Nejsou žádná témata agendy"
+
+#: emails/views/meetingemails/weeklysummary.py:108
+#, python-format
+msgid "%(pending_action_items)s Pending action items"
+msgstr "Počet nevyřízených akčních bodů %(pending_action_items)s"
+
+#: emails/views/meetingemails/weeklysummary.py:112
+#, python-format
+msgid "%(pending_agenda_topics)s Agenda topics"
+msgstr "Počet témat agendy %(pending_agenda_topics)s"
+
+#: emails/views/recognition/recognition.py:19
+#, python-format
+msgid "A direct report got %(BW_RECOGNITION)s!"
+msgstr "Přímý podřízený získal uznání!%(BW_RECOGNITION)s"
+
+#: emails/views/recognition/shoutout.py:20
+#, python-format
+msgid "You got %(BW_RECOGNITION)s!"
+msgstr "Získal/a jste uznání!%(BW_RECOGNITION)s"
+
+#: emails/views/useremails/admin_privileges.py:23
+#, python-format
+msgid "%(user_name)s, your admin privileges have been updated"
+msgstr "Uživateli %(user_name)s, vaše práva správce byla aktualizována."
+
+#: emails/views/useremails/admin_privileges.py:27
+#, python-format
+msgid "%(user_name)s, your admin privileges have been removed"
+msgstr "Uživateli %(user_name)s, vaše práva správce byla odstraněna."
+
+#: emails/views/useremails/user_deactivated.py:19
+#, python-format
+msgid "%(user_name)s has been deactivated"
+msgstr "Uživatel %(user_name)s byl deaktivován."
+
+#: filters/exports/downline.py:122 filters/exports/ppt/pptemail.py:37
+#: filters/exports/xls.py:116
+#, python-format
+msgid "%(filter_name)s Report"
+msgstr "Zpráva filtru %(filter_name)s"
+
+#: filters/exports/ppt/headerslides.py:20
+msgid "Status Report"
+msgstr "Zpráva o stavu"
+
+#: filters/exports/ppt/pptemail.py:30 filters/exports/xls.py:118
+#, python-format
+msgid "This report is based on the filter you set in the %(BW_GOAL)s list."
+msgstr ""
+"Tato zpráva je založená na filtru, který jste nastavili v seznamu "
+"cílů.%(BW_GOAL)s"
+
+#: filters/exports/ppt/summaryslide.py:287
+msgid "Overall progress"
+msgstr "Celkový postup"
+
+#: filters/exports/ppt/summaryslide.py:314
+msgid "Top {{ GOALS }} at risk"
+msgstr "Hlavní cíle v ohrožení {{ GOALS }}"
+
+#: filters/exports/ppt/summaryslide.py:317
+msgid "All contributing {{ GOALS }}"
+msgstr "Všichni, kdo se podílejí na cíli {{ GOALS }}"
+
+#: filters/models/defaultadminfilter.py:8
+msgid "My Peers / My Direct Reports"
+msgstr "Moji kolegové / moji přímí podřízení"
+
+#: filters/models/defaultadminfilter.py:11
+msgid "My Department"
+msgstr "Moje oddělení"
+
+#: filters/models/defaultadminfilter.py:12
+msgid "Risk - On Track"
+msgstr "Riziko – v souladu s plánem"
+
+#: filters/models/defaultadminfilter.py:13
+msgid "Risk - At Risk"
+msgstr "Riziko - hrozí nebezpečí"
+
+#: filters/models/defaultadminfilter.py:14
+msgid "Risk - Needs Attention"
+msgstr "Riziko – je třeba mu věnovat pozornost"
+
+#: filters/models/defaultfilter.py:7
+msgid "My ${ CAP_GOALS }"
+msgstr "Mé cíle"
+
+#: filters/models/defaultfilter.py:8
+msgid "Team ${ CAP_GOALS }"
+msgstr "Cíle týmu"
+
+#: filters/models/defaultfilter.py:9
+msgid "Top Company ${ CAP_GOALS }"
+msgstr "Nejlepší cíle společnosti"
+
+#: filters/models/defaultfilter.py:10
+msgid "${ CAP_GOALS } I Follow"
+msgstr "Cíle, které sleduji"
+
+#: filters/serializers/viewfilter.py:51
+msgid "My Direct Reports"
+msgstr "Mí přímí podřízení"
+
+#: filters/serializers/viewfilter.py:53
+msgid "My Peers"
+msgstr "Mí kolegové"
+
+#: filters/views/export.py:47 filters/views/export.py:57
+#: filters/views/export.py:67 filters/views/export.py:77
+msgid "Unsaved Filter"
+msgstr "Neuložený filtr"
+
+#: goals/actions/assessment.py:51
+#, python-format
+msgid "user %(username)s cannot assess goal %(id)d"
+msgstr "uživatel %(username)s nemůže zhodnotit cíl %(id)d"
+
+#: goals/actions/assessment.py:59
+msgid "scoring is not enabled for users org"
+msgstr "úspěchy nejsou pro uživatele organizací povoleny"
+
+#: goals/actions/assessment.py:63
+msgid "scoring is forced for this org"
+msgstr "úspěchy jsou pro tuto organizaci povinné"
+
+#: goals/actions/assessment.py:66
+msgid "score must be normalized between 0 and 1"
+msgstr "úspěch musí být mezi 0 a 1"
+
+#: goals/actions/assessment.py:159
+#, python-format
+msgid "user %(user_name)s cannot edit assessment %(id)d"
+msgstr "uživatel %(user_name)s nemůže upravit hodnocení %(id)d"
+
+#: goals/actions/assessment.py:166
+msgid "may not edit assessment over 24 hours old"
+msgstr "nemůžete upravovat hodnocení staré více než 24 hodin"
+
+#: goals/actions/comment.py:99
+msgid "Invalid Organizations"
+msgstr "Neplatné organizace"
+
+#: goals/actions/comment.py:107 goals/actions/comment.py:184
+msgid "modify access restricted"
+msgstr "přístup k úpravám je omezen"
+
+#: goals/actions/comment.py:114
+msgid "may not modify comment over 24 hours old"
+msgstr "nemůžete upravovat komentář starší než 24 hodin"
+
+#: goals/actions/comment.py:119
+#, python-format
+msgid "invalid comment type, expected %(type)s"
+msgstr "neplatný typ komentáře, očekávaný typ: %(type)s"
+
+#: goals/actions/comment.py:214
+msgid "may not edit comment over 24 hours old"
+msgstr "nemůžete upravovat komentář starší než 24 hodin"
+
+#: goals/actions/comment.py:217
+msgid "comments can only be edited by the author"
+msgstr "komentáře může upravovat pouze jejich autor"
+
+#: goals/actions/createworkunit.py:89
+msgid "alignment to parent is locked"
+msgstr "připojení k nadřazené jednotce je zamčeno"
+
+#: goals/actions/createworkunit.py:96
+#, python-format
+msgid "auto_target measurement_type must be one of %(a_list)s"
+msgstr ""
+"auto_target measurement_type musí být jedna z hodnot na seznamu %(a_list)s"
+
+#: goals/actions/createworkunit.py:101
+msgid "start and end must not be datetime"
+msgstr "zahájení a konec nesmí být datum a čas"
+
+#: goals/actions/createworkunit.py:104
+msgid "start must be before end"
+msgstr "začátek musí předcházet konci"
+
+#: goals/actions/createworkunit.py:109
+#, python-format
+msgid "measurement_type must be one of %(a_list)s"
+msgstr "measurement_type musí být jedna z hodnot na seznamu %(a_list)s"
+
+#: goals/actions/createworkunit.py:114
+msgid "invalid owner"
+msgstr "neplatný vlastník"
+
+#: goals/actions/createworkunit.py:122
+msgid "your goals are locked. please contact your administrator"
+msgstr "vaše cíle jsou uzamčeny. kontaktujte svého správce"
+
+#: goals/actions/createworkunit.py:134
+msgid "owner must be instance of Owner"
+msgstr "vlastník musí být v instanci typu Vlastník"
+
+#: goals/actions/createworkunit.py:137
+msgid "group owner not allowed"
+msgstr "skupinový vlastník není povolen"
+
+#: goals/actions/createworkunit.py:140
+msgid "team owner not allowed"
+msgstr "týmový vlastník není povolen"
+
+#: goals/actions/createworkunit.py:146
+msgid "public goal cannot be created with private goals only enabled"
+msgstr "veřejný cíl nelze vytvořit, pokud jsou povoleny pouze soukromé cíle"
+
+#: goals/actions/createworkunit.py:151
+msgid "public sub-goal cannot be created with private goals only enabled"
+msgstr ""
+"veřejný dílčí cíl nelze vytvořit, pokud jsou povoleny pouze soukromé cíle"
+
+#: goals/actions/createworkunit.py:163
+msgid "attribute scope is required"
+msgstr "rozsah atributu je povinný údaj"
+
+#: goals/actions/createworkunit.py:165
+msgid "attribute type is required"
+msgstr "typ atributu je povinný údaj"
+
+#: meetings/tasks/new_series_summary.py:56
+#, python-format
+msgid "Today @ %(formatted_time)s"
+msgstr "Dnes v %(formatted_time)s"
+
+#: meetings/tasks/new_series_summary.py:60
+#, python-format
+msgid "Tomorrow @ %(formatted_time)s"
+msgstr "Zítra v %(formatted_time)s"
+
+#: meetings/tasks/new_series_summary.py:77 meetings/utils.py:320
+msgid "Does not repeat"
+msgstr "Neopakuje se"
+
+#: meetings/tasks/new_series_summary.py:78
+msgid "Add Agenda Topics"
+msgstr "Přidat témata agendy"
+
+#: meetings/utils.py:20
+msgid "Weekly"
+msgstr "Týdně"
+
+#: meetings/utils.py:21
+msgid "Monthly"
+msgstr "Měsíční"
+
+#: meetings/utils.py:22
+msgid "Annually"
+msgstr ""
+
+#: meetings/utils.py:23
+msgid "Daily"
+msgstr ""
+
+#: meetings/utils.py:26
+msgid "Monday"
+msgstr "Pondělí"
+
+#: meetings/utils.py:27
+msgid "Tuesday"
+msgstr "Úterý"
+
+#: meetings/utils.py:28
+msgid "Wednesday"
+msgstr "Středa"
+
+#: meetings/utils.py:29
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: meetings/utils.py:30
+msgid "Friday"
+msgstr "Pátek"
+
+#: meetings/utils.py:31
+msgid "Saturday"
+msgstr "Sobota"
+
+#: meetings/utils.py:32
+msgid "Sunday"
+msgstr "Neděle"
+
+#: meetings/utils.py:39 meetings/utils.py:76
+msgid "last"
+msgstr "poslední"
+
+#: meetings/utils.py:50
+#, python-format
+msgctxt ""
+"abs_num contains an integer value and this whole translation will return "
+"values such as :- 1st, 31st etc"
+msgid "%(abs_num)sst"
+msgstr ""
+
+#: meetings/utils.py:57
+#, python-format
+msgctxt ""
+"abs_num contains an integer value and this whole translation will return "
+"values such as :- 2nd, 32nd etc"
+msgid "%(abs_num)snd"
+msgstr ""
+
+#: meetings/utils.py:64
+#, python-format
+msgctxt ""
+"abs_num contains an integer value and this whole translation will return "
+"values such as :- 3rd, 43rd etc"
+msgid "%(abs_num)srd"
+msgstr ""
+
+#: meetings/utils.py:71
+#, python-format
+msgctxt ""
+"abs_num contains an integer value and this whole translation will return "
+"values such as :- 5th, 17th etc"
+msgid "%(abs_num)sth"
+msgstr ""
+
+#: meetings/utils.py:90
+#, python-format
+msgctxt ""
+"joinedIntervalText is an string having comma separated days as input, "
+"lastText is also a string containing the info regarding days, for eg - "
+"Monday and Last Thursday"
+msgid "%(joinedIntervalText)s and %(lastText)s"
+msgstr ""
+
+#: meetings/utils.py:100
+#, python-format
+msgid "on %(weeklyString)s"
+msgstr ""
+
+#: meetings/utils.py:104
+#, python-format
+msgid "on %(monthlyString)s"
+msgstr ""
+
+#: meetings/utils.py:108
+#, python-format
+msgid "on %(yearlyString)s"
+msgstr ""
+
+#: meetings/utils.py:123
+msgid "all days"
+msgstr ""
+
+#: meetings/utils.py:125
+msgid "weekdays"
+msgstr ""
+
+#: meetings/utils.py:135
+#, python-format
+msgctxt "dayNum is an integer having value ranging from 1 till 31"
+msgid "day %(dayNum)s"
+msgstr ""
+
+#: meetings/utils.py:144
+#, python-format
+msgctxt ""
+"dayText is an string having value ranging from Monday till Sunday and "
+"intervalText is also an string having value such as 1st, 2nd, 3rd, 5th, last"
+" etc"
+msgid "%(intervalText)s %(dayText)s"
+msgstr ""
+
+#: meetings/utils.py:161
+#, python-format
+msgctxt ""
+"dayText is an string having value ranging from Monday till Sunday, "
+"intervalText is also an string having value such as 1st, 2nd, 3rd, 5th, last"
+" etc and monthText is an string having value ranging from as January till "
+"December"
+msgid "the %(intervalText)s %(dayText)s of %(monthText)s"
+msgstr ""
+
+#: meetings/utils.py:171
+#, python-format
+msgctxt ""
+"dayNumber is an integer having value ranging from 1 till 31 and monthText is"
+" an string having value ranging from as January till December"
+msgid "%(monthText)s %(dayNumber)s"
+msgstr ""
+
+#: meetings/utils.py:212
+#, python-format
+msgctxt "interval is an integer having value ranging from 1 to 100"
+msgid "Every %(interval)s days"
+msgstr ""
+
+#: meetings/utils.py:221
+msgid "Biweekly"
+msgstr ""
+
+#: meetings/utils.py:223
+msgid "Triweekly"
+msgstr ""
+
+#: meetings/utils.py:227
+#, python-format
+msgctxt "interval is an integer having value ranging from 1 to 100"
+msgid "Every %(interval)s weeks"
+msgstr ""
+
+#: meetings/utils.py:238
+#, python-format
+msgctxt "interval is an integer having value ranging from 1 to 100"
+msgid "Every %(interval)s months"
+msgstr ""
+
+#: meetings/utils.py:249
+#, python-format
+msgctxt "interval is an integer having value ranging from 1 to 100"
+msgid "Every %(interval)s years"
+msgstr ""
+
+#: meetings/utils.py:297
+#, python-format
+msgid "%(recurrence_text)s"
+msgstr ""
+
+#: meetings/utils.py:310
+#, python-format
+msgid "Weekly on %(frequency_day)s"
+msgstr "Každý týden, %(frequency_day)s"
+
+#: meetings/utils.py:312
+#, python-format
+msgid "Biweekly on %(frequency_day)s"
+msgstr "Každé dva týdny, %(frequency_day)s"
+
+#: meetings/utils.py:314
+#, python-format
+msgid "Triweekly on %(frequency_day)s"
+msgstr "Každé tři týdny, %(frequency_day)s"
+
+#: meetings/utils.py:316
+#, python-format
+msgid "Monthly on %(frequency_week)s %(frequency_day)s"
+msgstr "Každý měsíc, týden %(frequency_week)s, %(frequency_day)s"
+
+#: permissions/actions/setpermission.py:35
+#, python-format
+msgid "Owner of a %(GOAL)s must be an editor of that %(GOAL)s"
+msgstr ""
+
+#: reports/emailreports/accountsupportreport.py:47
+msgid ""
+"The report includes the times in the selected date range when Betterworks "
+"support has acted on behalf of your organization."
+msgstr ""
+
+#: reports/emailreports/allgoalsreport.py:51
+msgid "This report displays {{ GOAL }} and {{ MILESTONE }} information."
+msgstr ""
+
+#: reports/emailreports/allgoalsreport.py:54
+msgid "The all {{ GOALS }} report displays {{ GOAL }} information."
+msgstr ""
+
+#: reports/emailreports/auditlogsreport.py:60
+msgid ""
+"This report contains audit logs for the selected categories and between the "
+"selected date range."
+msgstr ""
+
+#: reports/emailreports/baseemailreport.py:35
+msgid "Applied Filter"
+msgstr ""
+
+#: reports/emailreports/baseemailreport.py:36
+msgid "On Leave Users Included"
+msgstr ""
+
+#: reports/emailreports/baseemailreport.py:37
+msgid "Deactivated Users Included"
+msgstr ""
+
+#: reports/emailreports/baseemailreport.py:110
+#, python-format
+msgid "Click here to download your report, link expires in %(ttl)s %(day)s."
+msgstr ""
+"Klikněte sem a stáhněte si svou zprávu, odkaz vyprší za %(ttl)s %(day)s. "
+
+#: reports/emailreports/baseemailreport.py:113
+#: reports/emailreports/baseemailreport.py:167
+msgid "days"
+msgstr "dny"
+
+#: reports/emailreports/baseemailreport.py:113
+#: reports/emailreports/baseemailreport.py:167
+msgid "day"
+msgstr "den"
+
+#: reports/emailreports/baseemailreport.py:117
+#, python-format
+msgid "Here is your %(report_name)s. %(description_of_report)s"
+msgstr "Zde je vaše zpráva %(report_name)s. %(description_of_report)s"
+
+#: reports/emailreports/baseemailreport.py:132
+#: reports/emailreports/baseemailreport.py:142
+msgid "The report you requested is empty since there is no data."
+msgstr "Požadovaná zpráva je prázdná, protože nejsou k dispozici žádné údaje."
+
+#: reports/emailreports/baseemailreport.py:147
+#, python-format
+msgid "%s to %s"
+msgstr "%s na %s"
+
+#: reports/emailreports/baseemailreport.py:163
+#, python-format
+msgid ""
+"Click on the link(s) below to download your reports, link(s) expire in "
+"%(ttl)s %(day)s:"
+msgstr ""
+"Kliknutím na odkaz(y) níže si můžete stáhnout své protokoly. Platnost odkazů"
+" vyprší za %(ttl)s %(day)s:"
+
+#: reports/emailreports/baseinsightsemailreport.py:67
+msgid "Department: {str(self._get_departments(x, self.org_id))}"
+msgstr ""
+
+#: reports/emailreports/baseinsightsemailreport.py:70
+msgid "Groups: {str(self._get_admin_groups_name(x, self.org_id))}"
+msgstr ""
+
+#: reports/emailreports/baseinsightsemailreport.py:74
+msgid ""
+"Organization, by manager: {str(self._get_managers_list(x, self.org_id))}"
+msgstr ""
+
+#: reports/emailreports/baseinsightsemailreport.py:77
+msgid "{CAP_CONVERSATION} flow: {str(self._get_conversation_status_data(x))}"
+msgstr ""
+
+#: reports/emailreports/baseinsightsemailreport.py:80
+msgid "{CAP_CONVERSATION} name: {str(self._get_templates_name(x))}"
+msgstr ""
+
+#: reports/emailreports/baseinsightsemailreport.py:83
+msgid "{CAP_CONVERSATION} type: {str(self._get_conversation_type(x))}"
+msgstr ""
+
+#: reports/emailreports/calibration_change_history_report.py:14
+#, python-format
+msgid "%(BW_CALIBRATION)s Summary Report - %(cycle_name)s Cycle.csv"
+msgstr "Souhrnná zpráva %(BW_CALIBRATION)s - %(cycle_name)s Cycle.csv"
+
+#: reports/emailreports/calibration_change_history_report.py:23
+#, python-format
+msgid "%(BW_CALIBRATION)s Summary Report"
+msgstr "Souhrnná zpráva %(BW_CALIBRATION)s"
+
+#: reports/emailreports/calibration_change_history_report.py:26
+#, python-format
+msgid "%(BW_CALIBRATION)s %(cycle_name)s Decisions for Your Team"
+msgstr "%(BW_CALIBRATION)s %(cycle_name)s – Rozhodnutí pro váš tým"
+
+#: reports/emailreports/calibration_change_history_report.py:31
+#, python-format
+msgid ""
+"This report contains the changes recommended for your team as part of the "
+"%(cycle)s process."
+msgstr ""
+"Tato zpráva obsahuje změny doporučované vašemu týmu v rámci procesu  "
+"%(cycle)s."
+
+#: reports/emailreports/completedfeedbackreport.py:65
+#, python-brace-format
+msgid ""
+"This report contains Completed {CAP_FEEDBACK} data for users in the scope of"
+" the current admin as per the selected date range."
+msgstr ""
+
+#: reports/emailreports/conversationadoptionreport.py:53
+#, python-brace-format
+msgid ""
+"This report contains the adoption information for any {CONVERSATION} that "
+"was active between the selected date range."
+msgstr ""
+
+#: reports/emailreports/conversationanswersreport.py:159
+#, python-brace-format
+msgid ""
+"This report contains questions and answers between manager and employee on "
+"the selected template that were active between a given date range. This "
+"includes {CONVERSATIONS} that were started before and during the time bands "
+"but did not finish within the dates."
+msgstr ""
+
+#: reports/emailreports/conversationmultireport.py:61
+#, python-brace-format
+msgid ""
+"The user activity report displays {CONVERSATIONS} interaction data for all "
+"users."
+msgstr ""
+
+#: reports/emailreports/conversationmultireport.py:213
+#: reports/emailreports/useractivitymultireport.py:275
+msgid "Row filter"
+msgstr ""
+
+#: reports/emailreports/conversationresponsereport.py:85
+#, python-brace-format
+msgid ""
+"This report contains {CONVERSATION} responses for users\n"
+"            in the scope of the current admin as per the selected date range."
+msgstr ""
+
+#: reports/emailreports/conversationstatusreport.py:65
+#, python-brace-format
+msgid ""
+"This report contains {CONVERSATION} status for users in the scope of the "
+"current admin as per the selected date range."
+msgstr ""
+
+#: reports/emailreports/feedbackadoptionreport.py:56
+#, python-brace-format
+msgid ""
+"This report contains the adoption report for any {FEEDBACK}\n"
+"            given during the selected date range."
+msgstr ""
+
+#: reports/emailreports/feedbackadoptionreport.py:177
+#, python-brace-format
+msgid ""
+"This report contains the adoption report for any {FEEDBACK} given on the "
+"\"{template_name}\" between {start_date} and {end_date}."
+msgstr ""
+
+#: reports/emailreports/feedbackanswersreport.py:61
+msgid ""
+"This report contains the questions and answers employees received during the"
+" selected date range."
+msgstr ""
+
+#: reports/emailreports/goalweightsreport.py:49
+msgid ""
+"{{ CAP_GOAL }} {{ WEIGHTS }} report displays {{ GOAL }} {{ WEIGHTS }} "
+"information."
+msgstr ""
+
+#: reports/emailreports/groupedconversationreport.py:59
+#, python-brace-format
+msgid ""
+"The user activity report displays {CONVERSATION} interaction data for all "
+"users."
+msgstr ""
+
+#: reports/emailreports/groupedconversationreport.py:156
+#: reports/emailreports/usersreportsummary.py:160
+msgid "Metric Name"
+msgstr ""
+
+#: reports/emailreports/groupedconversationreport.py:157
+#: reports/emailreports/usersreportsummary.py:161
+msgid "Group By"
+msgstr ""
+
+#: reports/emailreports/groupedmemberreport.py:27
+msgid "The group member report displays the details for the group members."
+msgstr ""
+
+#: reports/emailreports/hashtagsreport.py:46
+#, python-brace-format
+msgid ""
+"This report contains the hashtags report for any {RECOGNITION} given between"
+" {start_date} and {end_date}"
+msgstr ""
+
+#: reports/emailreports/keyresultsownedreport.py:65
+#, python-brace-format
+msgid ""
+"This report contains {CAP_MILESTONES} owned data for users\n"
+"            in the scope of the current admin as per the selected date range."
+msgstr ""
+
+#: reports/emailreports/objectivesownedreport.py:63
+#, python-brace-format
+msgid ""
+"This report contains {CAP_GOALS} owned data for users\n"
+"            in the scope of the current admin as per the selected date range."
+msgstr ""
+
+#: reports/emailreports/recognitionreport.py:62
+#, python-brace-format
+msgid ""
+"This report contains the hashtag and comment reports for any {RECOGNITION} "
+"given between the selected date range."
+msgstr ""
+
+#: reports/emailreports/usagereport.py:64
+msgid ""
+"This report contains usage data for users in the scope of the current admin "
+"as per the selected date range."
+msgstr ""
+
+#: reports/emailreports/useractivitymultireport.py:59
+#: reports/emailreports/useractivityreport.py:51
+#: reports/emailreports/usersreportsummary.py:57
+#, python-brace-format
+msgid ""
+"The user activity report displays {GOAL} interaction data for all users."
+msgstr ""
+
+#: reports/emailreports/useractivitymultireport.py:247
+#: reports/emailreports/usersreportsummary.py:159
+msgid "Categories"
+msgstr "Kategorie"
+
+#: slack/messages/action.py:26
+#, python-format
+msgid "%(user)s cheered your %(BW_GOAL)s"
+msgstr "Uživatel %(user)s vás povzbudil v cíli.%(BW_GOAL)s"
+
+#: slack/messages/action.py:58
+#, python-format
+msgid "%(user)s nudged your %(BW_GOAL)s"
+msgstr "Uživatel %(user)s pošťouchl váš cíl.%(BW_GOAL)s"
+
+#: slack/messages/admin_privileges.py:34 slack/messages/admin_privileges.py:37
+#, python-format
+msgid "%(user)s has updated your administrative privileges"
+msgstr "Uživatel %(user)s aktualizoval vaše práva správce."
+
+#: slack/messages/admin_privileges.py:41 slack/messages/admin_privileges.py:44
+#, python-format
+msgid "%(user)s has removed your administrative privileges"
+msgstr "Uživatel %(user)s vám odebral práva správce."
+
+#: slack/messages/assess.py:31 slack/messages/assess.py:35
+#, python-format
+msgid "%(user)s assessed a contribution to your %(BW_GOAL)s"
+msgstr "Uživatel %(user)s zhodnotil váš přínos k vašemu cíli.%(BW_GOAL)s"
+
+#: slack/messages/baseslackmessage.py:77
+msgid "Conversations"
+msgstr "Konverzace"
+
+#: slack/messages/baseslackmessage.py:80 slack/messages/baseslackmessage.py:83
+#: slack/messages/baseslackmessage.py:86
+msgid "Feedback"
+msgstr "Zpětná vazba"
+
+#: slack/messages/baseslackmessage.py:99
+msgid "Recognition"
+msgstr "Uznání"
+
+#: slack/messages/change.py:26
+#, python-format
+msgid "%(user)s deleted your %(BW_GOAL)s"
+msgstr "Uživatel %(user)s smazal váš cíl.%(BW_GOAL)s"
+
+#: slack/messages/change.py:56
+#, python-format
+msgid "%(user)s reassigned %(goal)s"
+msgstr "Uživatel %(user)s přidělil cíl %(goal)s."
+
+#: slack/messages/change.py:60
+#, python-format
+msgid "%(user)s reassigned %(BW_GOAL)s"
+msgstr "Uživatel %(user)s přidělil cíl.%(BW_GOAL)s"
+
+#: slack/messages/change.py:96
+#, python-format
+msgid "%(user)s assigned you %(goal)s"
+msgstr "Uživatel %(user)s vám přidělil cíl %(goal)s."
+
+#: slack/messages/change.py:100
+#, python-format
+msgid "%(user)s assigned you %(BW_GOAL)s"
+msgstr "Uživatel %(user)s vám přidělil cíl.%(BW_GOAL)s"
+
+#: slack/messages/checkin.py:37 slack/messages/checkin.py:41
+#, python-format
+msgid "%(user)s made progress on %(BW_GOAL)s you're following"
+msgstr "Uživatel %(user)s postoupil v cíli, který sledujete.%(BW_GOAL)s"
+
+#: slack/messages/comment.py:30
+#, python-format
+msgid "%(user)s commented on %(BW_GOAL)s"
+msgstr "Uživatel %(user)s okomentoval cíl.%(BW_GOAL)s"
+
+#: slack/messages/comment.py:64
+#, python-format
+msgid "%(user)s also commented on %(goal)s"
+msgstr "Uživatel %(user)s také okomentoval cíl %(goal)s."
+
+#: slack/messages/comment.py:68
+#, python-format
+msgid "%(user)s also commented on %(BW_GOAL)s"
+msgstr "Uživatel %(user)s také okomentoval cíl.%(BW_GOAL)s"
+
+#: slack/messages/complete.py:27
+#, python-format
+msgid "%(user)s completed %(BW_GOAL)s"
+msgstr "Uživatel %(user)s dokončil cíl.%(BW_GOAL)s"
+
+#: slack/messages/contributor.py:25
+#, python-format
+msgid "%(user_name)s is now contributing to %(goal_name)s"
+msgstr "Uživatel %(user_name)s se nyní podílí na cíli %(goal_name)s."
+
+#: slack/messages/contributor.py:29
+#, python-format
+msgid "%(user_name)s is now contributing to your %(BW_GOAL)s"
+msgstr "Uživatel %(user_name)s se nyní podílí na vašem cíli.%(BW_GOAL)s"
+
+#: slack/messages/contributor.py:60
+#, python-format
+msgid "You're now contributing to %(goal_name)s"
+msgstr "Nyní se podílíte na cíli %(goal_name)s."
+
+#: slack/messages/contributor.py:62
+#, python-format
+msgid "You're now contributing to %(user_name)s's %(BW_GOAL)s"
+msgstr "Nyní se podílíte na cíli uživatele %(user_name)s.%(BW_GOAL)s"
+
+#: slack/messages/contributor.py:99
+#, python-format
+msgid "%(user_name)s deleted %(BW_A_GOAL)s"
+msgstr "Uživatel %(user_name)s smazal cíl.%(BW_A_GOAL)s"
+
+#: slack/messages/contributor.py:103
+#, python-format
+msgid "Its progress no longer contributes to %(goal_name)s"
+msgstr "Jeho postup již nepřispívá k dosažení cíle %(goal_name)s."
+
+#: slack/messages/contributor.py:134 slack/messages/contributor.py:140
+#, python-format
+msgid "%(user_name)s removed %(BW_A_MILESTONE)s from your %(BW_GOAL)s"
+msgstr ""
+"Uživatel %(user_name)s odstranil milník z vašeho "
+"cíle.%(BW_A_MILESTONE)s%(BW_GOAL)s"
+
+#: slack/messages/conversation/created.py:28
+#, python-format
+msgid ""
+"%(user_name)s has started a %(BW_CONVERSATION)s with you. Check it out."
+msgstr ""
+"Uživatel %(user_name)s s vámi zahájil konverzaci. Podívejte "
+"se.%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/created.py:32
+#, python-format
+msgid "%(user_link)s has started a %(BW_CONVERSATION)s with you"
+msgstr "Uživatel %(user_link)s s vámi zahájil konverzaci.%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/due.py:26
+#, python-format
+msgid ""
+"Today is the last day for you to complete your %(BW_CONVERSATION)s. Please "
+"take a few minutes to ensure you are done."
+msgstr ""
+"Dnes je poslední den, kdy můžete dokončit konverzaci. Věnujte tomu prosím "
+"pár minut a záležitost dokončete.%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/due.py:34
+#, python-format
+msgid "%(conversation_name)s due today"
+msgstr "Konverzace %(conversation_name)s má dnes termín dokončení."
+
+#: slack/messages/conversation/edited.py:19
+#, python-format
+msgid ""
+"Your answers to %(conversation_name)s with %(direct_name)s were changed"
+msgstr ""
+"Vaše odpovědi v konverzaci s názvem %(conversation_name)s s přímým "
+"podřízeným %(direct_name)s se změnily"
+
+#: slack/messages/conversation/invited.py:22
+#, python-format
+msgid ""
+"%(manager)s invites you to contribute to their %(BW_CONVERSATION)s with "
+"%(employee)s."
+msgstr ""
+"Vedoucí %(manager)s vás pozval, abyste přispěl do jeho konverzace "
+"%(BW_CONVERSATION)s se zaměstnancem %(employee)s."
+
+#: slack/messages/conversation/invited.py:31
+#, python-format
+msgid "%(conversation_name)s"
+msgstr "Konverzace s názvem %(conversation_name)s"
+
+#: slack/messages/conversation/midcycle.py:29
+#, python-format
+msgid ""
+"Reminder, your %(conversation_name)s %(BW_CONVERSATION)s is due "
+"%(end_date)s. Please be sure to have and update your %(BW_CONVERSATIONS)s."
+msgstr ""
+"Připomínka, že vaše konverzace %(conversation_name)s má proběhnout do "
+"%(end_date)s. Ujistěte se, že proběhnou, a aktualizujte své "
+"konverzace.%(BW_CONVERSATION)s%(BW_CONVERSATIONS)s"
+
+#: slack/messages/conversation/midcycle.py:40
+#, python-format
+msgid "Reminder on your %(BW_CONVERSATION)s"
+msgstr "Upomínka k vaší konverzaci%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/overdue.py:24
+#, python-format
+msgid "Your %(conversation_name)s %(BW_CONVERSATION)s is past due."
+msgstr ""
+"Vaše konverzace %(conversation_name)s je po termínu.%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/overdue.py:31
+#, python-format
+msgid "%(BW_CONVERSATION)s past due"
+msgstr "Konverzace po termínu %(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/postdue.py:26
+#, python-format
+msgid ""
+"Today is the last day for you to answer the questions asked after you "
+"completed your %(conversation_name)s. Please take a few minutes to ensure "
+"you are done."
+msgstr ""
+"Dnes je poslední den, kdy můžete odpovědět na otázky, které vám byly "
+"položeny po konverzaci %(conversation_name)s. Věnujte prosím chvilku tomu, "
+"abyste se ujistili, že je máte hotové."
+
+#: slack/messages/conversation/postdue.py:34
+#, python-format
+msgid "%(BW_CONVERSATION)s %(conversation_name)s is due today"
+msgstr ""
+"Termín dokončení konverzace %(conversation_name)s je dnes%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/poststart.py:29
+#, python-format
+msgid ""
+"Now that your %(conversation_name)s is complete, you have been asked to "
+"answer additional questions. Your answers should be submitted by "
+"%(due_date)s.As a reminder, admins will be able to see your answers after "
+"you share"
+msgstr ""
+"Teď, když jste dokončili svou konverzaci %(conversation_name)s, vám byly "
+"položeny dodatečné otázky. Odpovědi je třeba odeslat do %(due_date)s. "
+"Připomínáme, že vaše odpovědi uvidí pouze administrátoři"
+
+#: slack/messages/conversation/poststart.py:39
+#, python-format
+msgid "Complete your %(BW_CONVERSATION)s"
+msgstr "Dokončit konverzaci%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/share.py:29
+#, python-format
+msgid "%(user_name)s shared a %(BW_CONVERSATION)s. Check it out."
+msgstr ""
+"Uživatel %(user_name)s sdílel konverzaci. Podívejte se.%(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/share.py:33
+#, python-format
+msgid "%(user_name)s shared a %(BW_CONVERSATION)s"
+msgstr "Uživatel %(user_name)s sdílel konverzaci %(BW_CONVERSATION)s"
+
+#: slack/messages/conversation/sharecontributor.py:22
+#, python-format
+msgid ""
+"%(user_name)s shared their responses about %(direct_name)s for your review."
+msgstr ""
+"Uživatel %(user_name)s s vámi sdílel své odpovědi ohledně přímého "
+"podřízeného %(direct_name)s pro vaše zhodnocení."
+
+#: slack/messages/conversation/sharethirdparty.py:22
+#, python-format
+msgid ""
+"%(user_name)s has shared your %(conversation_name)s with %(direct_name)s."
+msgstr ""
+"Uživatel %(user_name)s sdílel vaši konverzaci %(conversation_name)s s "
+"%(direct_name)s."
+
+#: slack/messages/conversation/start.py:32
+#, python-format
+msgid ""
+"Your %(conversation_name)s %(BW_CONVERSATION)s starts today. You will be "
+"having %(BW_CONVERSATIONS)s with %(user_names)s."
+msgstr ""
+"Vaše konverzace %(conversation_name)s začíná dnes. Povedete konverzaci s "
+"uživatelem %(user_names)s. %(BW_CONVERSATION)s%(BW_CONVERSATIONS)s"
+
+#: slack/messages/conversation/start.py:41
+#, python-format
+msgid "%(BW_CONVERSATION)s starts today"
+msgstr "Dnes začíná konverzace %(BW_CONVERSATION)s"
+
+#: slack/messages/feedback/adhocrequested.py:23
+#, python-format
+msgid "%(from_user)s wants your %(BW_FEEDBACK)s"
+msgstr "Uživatel %(from_user)s chce vaši zpětnou vazbu %(BW_FEEDBACK)s "
+
+#: slack/messages/feedback/adhocrequested.py:30
+#: slack/messages/feedback/reminder.py:33
+#: slack/messages/feedback/requested.py:24
+msgid "Give"
+msgstr "Udělit"
+
+#: slack/messages/feedback/received.py:21
+#, python-format
+msgid "You have received %(BW_FEEDBACK)s"
+msgstr "Obdrželi jste zpětnou vazbu %(BW_FEEDBACK)s "
+
+#: slack/messages/feedback/reminder.py:24
+#, python-format
+msgid ""
+"People are waiting for your %(BW_FEEDBACK)s. You have until %(cycle_end)s to"
+" provide it"
+msgstr ""
+"Lidé čekají na vaši zpětnou vazbu. Na poskytnutí máte čas do "
+"%(cycle_end)s%(BW_FEEDBACK)s"
+
+#: slack/messages/feedback/started.py:21
+#, python-format
+msgid "It's time to request %(BW_FEEDBACK)s from your peers"
+msgstr "Je čas požádat vaše kolegy o zpětnou vazbu %(BW_FEEDBACK)s"
+
+#: slack/messages/feedback/started.py:27
+msgid "Request"
+msgstr "Požádat"
+
+#: slack/messages/follower.py:26
+#, python-format
+msgid "%(user_name)s, you're following a new %(BW_GOAL)s"
+msgstr "%(user_name)s, sledujete nový cíl.%(BW_GOAL)s"
+
+#: slack/messages/follower.py:30
+#, python-format
+msgid "%(user_name)s added you as a follower"
+msgstr "Uživatel %(user_name)s vás přidal jako sledujícího."
+
+#: slack/messages/integration.py:22
+#, python-format
+msgid "%(BW_CAP_A_MILESTONE)s linked to an integration is no longer updating"
+msgstr ""
+"Milník, který je propojený se začleněním, se už "
+"neaktualizuje%(BW_CAP_A_MILESTONE)s"
+
+#: slack/messages/integration.py:25
+#, python-format
+msgid "An integration has been detached from %(BW_GOAL)s"
+msgstr "Začlenění bylo odpojeno od cíle.%(BW_GOAL)s"
+
+#: slack/messages/integration.py:26
+msgid "Reconnecting the integration will resolve the issue"
+msgstr "Opětovné začlenění problém vyřeší."
+
+#: slack/messages/mention.py:26
+#, python-format
+msgid "%(user_name)s mentioned you in %(goal_name)s"
+msgstr "Uživatel %(user_name)s vás zmínil v cíli %(goal_name)s."
+
+#: slack/messages/mention.py:30
+#, python-format
+msgid "%(user_name)s mentioned you in %(BW_GOAL)s"
+msgstr "Uživatel %(user_name)s vás zmínil v cíli.%(BW_GOAL)s"
+
+#: slack/messages/mention.py:64
+#, python-format
+msgid "%(user_name)s mentioned you in an assessment on %(goal_name)s"
+msgstr "Uživatel %(user_name)s vás zmínil v hodnocení cíle %(goal_name)s."
+
+#: slack/messages/new_participant.py:29 slack/messages/new_participant.py:30
+#, python-format
+msgid "%(user_name)s added you as an editor on %(BW_A_GOAL)s"
+msgstr ""
+"Uživatel %(user_name)s vás přidal jako upravující osobu cíle.%(BW_A_GOAL)s"
+
+#: slack/messages/new_participant.py:32 slack/messages/new_participant.py:33
+#, python-format
+msgid "%(user_name)s added you as an owner on %(BW_A_GOAL)s"
+msgstr "Uživatel %(user_name)s vás přidal jako vlastníka cíle.%(BW_A_GOAL)s"
+
+#: slack/messages/new_participant.py:35 slack/messages/new_participant.py:36
+#, python-format
+msgid "%(user_name)s added you as a participant on %(BW_A_GOAL)s"
+msgstr "Uživatel %(user_name)s vás přidal jako účastníka cíle.%(BW_A_GOAL)s"
+
+#: slack/messages/parent_changes.py:26
+#, python-format
+msgid "%(user_name)s, you're no longer contributing to %(goal_name)s"
+msgstr "%(user_name)s, již se nepodílíte na cíli %(goal_name)s."
+
+#: slack/messages/parent_changes.py:30
+#, python-format
+msgid "%(user_name)s removed you from %(BW_GOAL)s"
+msgstr "Uživatel %(user_name)s vás odstranil z cíle.%(BW_GOAL)s"
+
+#: slack/messages/parent_changes.py:62 slack/messages/parent_changes.py:67
+#, python-format
+msgid "%(user_name)s moved your %(BW_GOAL)s %(goal_name)s"
+msgstr "Uživatel %(user_name)s přesunul váš cíl %(goal_name)s.%(BW_GOAL)s"
+
+#: slack/messages/plan.py:26
+#, python-format
+msgid "%(user_name)s added %(goal_name)s to their plan %(plan_name)s"
+msgstr ""
+"Uživatel %(user_name)s přidal cíl %(goal_name)s do svého plánu "
+"%(plan_name)s."
+
+#: slack/messages/plan.py:31
+#, python-format
+msgid "%(user_name)s added %(goal_name)s to their plan"
+msgstr "Uživatel %(user_name)s přidal cíl %(goal_name)s do svého plánu."
+
+#: slack/messages/related.py:29
+#, python-format
+msgid "%(user_name)s added a related %(BW_GOAL)s to your %(BW_GOAL)s"
+msgstr ""
+"Uživatel %(user_name)s přidal související cíl do vašeho "
+"cíle.%(BW_GOAL)s%(BW_GOAL)s"
+
+#: slack/messages/related.py:33
+#, python-format
+msgid "%(user_name)s added %(goal_name)s as a related %(BW_GOAL)s"
+msgstr ""
+"Uživatel %(user_name)s přidal cíl %(goal_name)s jako související "
+"cíl.%(BW_GOAL)s"
+
+#: slack/messages/requestaccess.py:25 slack/messages/requestaccess.py:29
+#, python-format
+msgid "%(user_name)s is requesting access to your %(BW_GOAL)s"
+msgstr "Uživatel %(user_name)s žádá o přístup k vašemu cíli.%(BW_GOAL)s"
+
+#: slack/messages/requestaccess.py:60 slack/messages/requestaccess.py:64
+#, python-format
+msgid "%(group_name)s is requesting access to your %(BW_GOAL)s"
+msgstr "Skupina %(group_name)s žádá o přístup k vašemu cíli.%(BW_GOAL)s"
+
+#: slack/messages/score_edited.py:25 slack/messages/score_edited.py:29
+#, python-format
+msgid "%(user_name)s edited the score of one of your %(BW_GOALS)s"
+msgstr ""
+"Uživatel %(user_name)s upravil skóre jednoho z vašich cílů.%(BW_GOALS)s"
+
+#: slack/messages/shoutout.py:23
+#, python-format
+msgid "%(from_user)s has given you %(BW_RECOGNITION)s"
+msgstr "Uživatel %(from_user)s vám udělil uznání %(BW_RECOGNITION)s"
+
+#: slack/messages/slackconfirmation.py:16
+msgid "You are now connected to the Betterworks Slack app."
+msgstr "Nyní jste připojení k aplikaci Betterworks Slack."
+
+#: slack/messages/slackconfirmation.py:20
+msgid "Connected"
+msgstr "Připojeno"
+
+#: slack/messages/slackwelcome.py:16
+msgid ""
+"The Betterworks Slack app allows you to get notifications about activity "
+"right in Slack. You can also view and update your goals and give recognition"
+" to your colleagues."
+msgstr ""
+"Aplikace Betterworks Slack vám umožní dostávat oznámení o aktivitách přímo "
+"ve službě Slack. Zároveň můžete zobrazovat a aktualizovat své cíle a "
+"projevovat uznání svým kolegům."
+
+#: slack/messages/slackwelcome.py:22
+msgid "Let's Get Started"
+msgstr "Dejme se do toho"
+
+#: slack/messages/status.py:28
+#, python-format
+msgid "Your %(BW_GOAL)s was due on %(date)s"
+msgstr "Termín dokončení vašeho cíle byl %(date)s.%(BW_GOAL)s"
+
+#: slack/messages/status.py:32
+#, python-format
+msgid "%(goal_name)s was due on %(date)s"
+msgstr "Termín dokončení cíle %(goal_name)s byl %(date)s."
+
+#: slack/messages/status.py:68
+#, python-format
+msgid ""
+"%(goal_name)s is due on %(date)s. Would you like to add it to your calendar?"
+msgstr ""
+"Termín dokončení cíle %(goal_name)s je %(date)s. Chcete ho přidat do svého "
+"kalendáře?"
+
+#: slack/messages/user_deactivated.py:20
+#, python-format
+msgid "%(user_name)s has been deactivated in Betterworks"
+msgstr "Uživatel %(user_name)s byl v aplikaci Betterworks deaktivován."
